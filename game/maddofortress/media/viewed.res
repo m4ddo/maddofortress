@@ -6,7 +6,7 @@
 	}
 	"pl_upward"
 	{
-		"viewed"		"302"
+		"viewed"		"303"
 	}
 	"itemtest"
 	{
