@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/workshop/weapons/c_models/c_scorpio/c_pro_smg"
+	"$translucent" 1
+}

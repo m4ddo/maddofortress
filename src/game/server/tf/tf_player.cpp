@@ -11562,7 +11562,42 @@ void CTFPlayer::OnKilledOther_Effects( CBaseEntity *pVictim, const CTakeDamageIn
 			gameeventmanager->FireEvent( event ); 
 		}
 	}
+	// --- Ammo on kill attribute ---
+	int iAmmoOnKill = 0;
+	CALL_ATTRIB_HOOK_INT_ON_OTHER(pWeapon, iAmmoOnKill, ammo_on_kill);
+	if (iAmmoOnKill > 0)
+	{
+		// Get the weapon's primary ammo type
+		int iAmmoType = pWeapon->GetPrimaryAmmoType();
+		if (iAmmoType != -1)
+		{
+			int iCurrentAmmo = GetAmmoCount(iAmmoType);
+			int iMaxAmmo = GetMaxAmmo(iAmmoType);
 
+			int iAmmoToAdd = MIN(iAmmoOnKill, iMaxAmmo - iCurrentAmmo);
+
+			if (iAmmoToAdd > 0)
+			{
+				GiveAmmo(iAmmoToAdd, iAmmoType, true);
+
+				// Optional: fire a game event
+				IGameEvent* event = gameeventmanager->CreateEvent("player_ammoonkill");
+				if (event)
+				{
+					event->SetInt("amount", iAmmoToAdd);
+					event->SetInt("entindex", entindex());
+
+					item_definition_index_t weaponItemDef = INVALID_ITEM_DEF_INDEX;
+					if (pWeapon->GetAttributeContainer() && pWeapon->GetAttributeContainer()->GetItem())
+					{
+						weaponItemDef = pWeapon->GetAttributeContainer()->GetItem()->GetItemDefIndex();
+					}
+					event->SetInt("weapon_def_index", weaponItemDef);
+					gameeventmanager->FireEvent(event);
+				}
+			}
+		}
+	}
 	int iSpeedBoostOnKill = 0;
 	CALL_ATTRIB_HOOK_INT_ON_OTHER( pWeapon, iSpeedBoostOnKill, speed_boost_on_kill );
 	if ( iSpeedBoostOnKill )

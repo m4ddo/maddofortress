@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/c_models/c_homer/eye"
+	"$translucent" 1
+}

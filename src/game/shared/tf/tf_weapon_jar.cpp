@@ -206,17 +206,6 @@ void CTFJar::TossJarThink( void )
 		pPlayer->SpeakWeaponFire( MP_CONCEPT_JARATE_LAUNCH );
 	}
 
-	if ( pProjectile->ExplodesOnHit() )
-	{
-		Vector vecEnd = pProjectile->GetAbsOrigin() + ( vecVelocity.Normalized() * 32.0f );
-		UTIL_TraceHull( pProjectile->GetAbsOrigin(), vecEnd, -Vector( 8, 8, 8 ), Vector( 8, 8, 8 ), MASK_SOLID_BRUSHONLY, &traceFilter, &trace );
-
-		if ( trace.fraction < 1.0 )
-		{
-			pProjectile->Explode( &trace, pProjectile->GetDamageType() );
-		}
-	}
-
 #endif
 }
 //-----------------------------------------------------------------------------
@@ -262,26 +251,45 @@ void CTFProjectile_Jar::SetCustomPipebombModel()
 {
 	// Check for Model Override
 	int iProjectile = 0;
-	CTFPlayer *pThrower = ToTFPlayer( GetThrower() );
-	if ( pThrower && pThrower->GetActiveWeapon() )
+	CTFPlayer* pThrower = ToTFPlayer(GetThrower());
+	if (pThrower && pThrower->GetActiveWeapon())
 	{
-		CALL_ATTRIB_HOOK_INT_ON_OTHER( pThrower->GetActiveWeapon(), iProjectile, override_projectile_type );
-		switch ( iProjectile )
+		CALL_ATTRIB_HOOK_INT_ON_OTHER(pThrower->GetActiveWeapon(), iProjectile, override_projectile_type);
+		switch (iProjectile)
 		{
-		case TF_PROJECTILE_FESTIVE_JAR :
+		case TF_PROJECTILE_FESTIVE_JAR:
 			m_iProjectileType = iProjectile;
-			SetModel( TF_WEAPON_FESTIVE_PEEJAR_MODEL );
+			SetModel(TF_WEAPON_FESTIVE_PEEJAR_MODEL);
 			return;
+
 		case TF_PROJECTILE_BREADMONSTER_JARATE:
 		case TF_PROJECTILE_BREADMONSTER_MADMILK:
 			m_iProjectileType = iProjectile;
-			SetModel( "models/weapons/c_models/c_breadmonster/c_breadmonster.mdl" );
+			SetModel("models/weapons/c_models/c_breadmonster/c_breadmonster.mdl");
 			return;
 		}
 	}
-	
-	SetModel( TF_WEAPON_PEEJAR_MODEL );
+
+	// --------------------------------------------------------------------
+	//  MANDUDE MODEL OVERRIDE
+	// --------------------------------------------------------------------
+	if (pThrower && pThrower->GetActiveWeapon())
+	{
+		int iMandude = 0;
+		CALL_ATTRIB_HOOK_INT_ON_OTHER(pThrower->GetActiveWeapon(), iMandude, use_mandude_model);
+
+		if (iMandude != 0)
+		{
+			// Replace with your Mandude jar model
+			SetModel("models/weapons/c_models/c_mandude/c_sd_cleaver.mdl");
+			return;
+		}
+	}
+	// --------------------------------------------------------------------
+
+	SetModel(TF_WEAPON_PEEJAR_MODEL);
 }
+
 
 //-----------------------------------------------------------------------------
 // Purpose:
@@ -476,31 +484,112 @@ void JarExplode( int iEntIndex, CTFPlayer *pAttacker, CBaseEntity *pOriginalWeap
 //-----------------------------------------------------------------------------
 // Purpose:
 //-----------------------------------------------------------------------------
-void CTFProjectile_Jar::Explode( trace_t *pTrace, int bitsDamageType )
+// --- In tf_weapon_jar.cpp ---
+
+void CTFProjectile_Jar::Explode(trace_t* pTrace, int bitsDamageType)
 {
-	SetModelName( NULL_STRING );//invisible
-	AddSolidFlags( FSOLID_NOT_SOLID );
+	// CRITICAL FIX: If the projectile has already been marked as removed (by Detonate, for example), exit.
+	if (m_takedamage == DAMAGE_NO)
+		return;
 
-	m_takedamage = DAMAGE_NO;
+	// --- 1. MANDUDE ATTRIBUTE CHECK ---
 
-	// Pull out of the wall a bit.
-	if ( pTrace->fraction != 1.0 )
+	CTFWeaponBase* pLauncher = dynamic_cast<CTFWeaponBase*>(GetLauncher());
+	int iMandude = 0;
+
+	if (pLauncher)
 	{
-		SetAbsOrigin( pTrace->endpos + ( pTrace->plane.normal * 1.0f ) );
+		// Check for the custom attribute to determine explosion type
+		CALL_ATTRIB_HOOK_INT_ON_OTHER(pLauncher, iMandude, use_mandude_model);
 	}
 
-	CTFPlayer *pThrower = ToTFPlayer( GetThrower() );
-	JarExplode( entindex(), pThrower, GetOriginalLauncher(), GetLauncher(), GetAbsOrigin(), GetTeamNumber(), GetDamageRadius(), GetEffectCondition(), 10.f, GetImpactEffect(), GetExplodeSound() );
+	// --- 2. MANDUDE ROCKET EXPLOSION LOGIC ---
+	if (iMandude != 0)
+	{
+		// IMMEDIATE CLEANUP: Mark as removed right now to prevent a Detonate() call on the same tick.
+		m_takedamage = DAMAGE_NO;
+		SetTouch(NULL);
 
-	// Debug radius draw.
-	//DrawRadius( GetDamageRadius() );
+		Vector vecExplosionOrigin = GetAbsOrigin();
+		if (pTrace)
+		{
+			vecExplosionOrigin = pTrace->endpos;
+		}
 
-	SetContextThink( &CBaseGrenade::SUB_Remove, gpGlobals->curtime, "RemoveThink" );
-	SetTouch( NULL );
+		CTFPlayer* pOwner = ToTFPlayer(GetThrower());
+		if (pOwner)
+		{
+			// --- Damage Calculation ---
+			float flDamageMultiplier = 1.0f;
+			if (pLauncher)
+			{
+				CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flDamageMultiplier, mult_jar_explosion_damage);
+			}
+			float flBaseDamage = 90.0f;
+			float flFinalDamage = flBaseDamage * flDamageMultiplier;
 
-	AddEffects( EF_NODRAW );
-	SetAbsVelocity( vec3_origin );
-}	
+			float flFinalRadius = 146.0f;
+			float flRadiusMultiplier = 1.0f;
+			if (pLauncher)
+			{
+				CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flRadiusMultiplier, mult_jar_explosion_radius);
+			}
+			flFinalRadius = 146.0f * flRadiusMultiplier;
+
+			// Apply Damage
+			CTakeDamageInfo info(this, pOwner, flFinalDamage, DMG_BLAST);
+			info.SetWeapon(pLauncher);
+
+			if (IsCritical())
+			{
+				info.AddDamageType(DMG_CRITICAL);
+			}
+
+			RadiusDamage(info, vecExplosionOrigin, flFinalRadius, CLASS_NONE, this);
+
+			// Particles and sound (As per your previous rocket logic)
+			DispatchParticleEffect("ExplosionCore_MidAir", vecExplosionOrigin, vec3_angle);
+			EmitSound("BaseExplosionEffect.Sound");
+		}
+
+		// Final entity removal
+		SetModelName(NULL_STRING);
+		AddSolidFlags(FSOLID_NOT_SOLID);
+		SetContextThink(&CBaseGrenade::SUB_Remove, gpGlobals->curtime + 0.1f, "RemoveThink");
+		AddEffects(EF_NODRAW);
+		SetAbsVelocity(vec3_origin);
+
+		// STOP EXECUTION: Do not proceed to the Jarate logic below.
+		return;
+	}
+	// --- END CUSTOM ROCKET EXPLOSION LOGIC ---
+
+	// --------------------------------------------------------------------------
+	// --- 3. ORIGINAL JARATE EXPLODE LOGIC (Mandude attribute NOT set) ---
+	// --------------------------------------------------------------------------
+
+	// Cleanup must still be done before removal
+	m_takedamage = DAMAGE_NO;
+	SetTouch(NULL);
+
+	SetModelName(NULL_STRING);
+	AddSolidFlags(FSOLID_NOT_SOLID);
+
+	// Pull out of the wall a bit.
+	if (pTrace && pTrace->fraction != 1.0)
+	{
+		SetAbsOrigin(pTrace->endpos + (pTrace->plane.normal * 1.0f));
+	}
+
+	CTFPlayer* pThrower = ToTFPlayer(GetThrower());
+
+	// Jarate function call
+	JarExplode(entindex(), pThrower, GetOriginalLauncher(), GetLauncher(), GetAbsOrigin(), GetTeamNumber(), GetDamageRadius(), GetEffectCondition(), 10.f, GetImpactEffect(), GetExplodeSound());
+
+	SetContextThink(&CBaseGrenade::SUB_Remove, gpGlobals->curtime, "RemoveThink");
+	AddEffects(EF_NODRAW);
+	SetAbsVelocity(vec3_origin);
+}
 
 //-----------------------------------------------------------------------------
 void CTFProjectile_Jar::PipebombTouch( CBaseEntity *pOther )
@@ -561,11 +650,76 @@ void CTFProjectile_Jar::PipebombTouch( CBaseEntity *pOther )
 		OnBreadMonsterHit( pOther, &pTrace );
 	}
 
-	if ( ExplodesOnHit() )
+	if (ExplodesOnHit())
 	{
-		// Save this entity as enemy, they will take 100% damage if applicable
+		// **************************************
+		// MANDUDE OVERRIDE: Rocket explosion
+		// **************************************
+		CTFWeaponBase* pLauncher = dynamic_cast<CTFWeaponBase*>(GetLauncher());
+		if (pLauncher)
+		{
+			int iMandude = 0;
+			CALL_ATTRIB_HOOK_INT_ON_OTHER(pLauncher, iMandude, use_mandude_model);
+
+			if (iMandude != 0)
+			{
+				// CRITICAL FIX: Immediately stop all future explosion triggers (fuse timer, touch logic).
+				m_takedamage = DAMAGE_NO;
+				SetTouch(NULL);
+
+				// Produce a rocket-style explosion
+				CTFPlayer* pOwner = ToTFPlayer(GetThrower());
+				if (pOwner)
+				{
+					// -----------------------------------------------------
+					// DAMAGE AND RADIUS CALCULATION (Your existing logic)
+					// -----------------------------------------------------
+					float flDamageMultiplier = 1.0f;
+					CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flDamageMultiplier, mult_jar_explosion_damage);
+
+					float flRadiusMultiplier = 1.0f;
+					CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flRadiusMultiplier, mult_jar_explosion_radius);
+
+					float flBaseDamage = 90.0f;
+					float flFinalDamage = flBaseDamage * flDamageMultiplier;
+
+					float flBaseRadius = 146.0f;
+					float flFinalRadius = flBaseRadius * flRadiusMultiplier;
+					// -----------------------------------------------------
+
+					const trace_t* pTrace = &CBaseEntity::GetTouchTrace();
+
+					// 1. Create damage info using the final scaled damage
+					CTakeDamageInfo info(this, pOwner, flFinalDamage, DMG_BLAST);
+					info.SetWeapon(pLauncher);
+
+					// 2. CRITICAL HIT FIX: Check the projectile's crit status and apply the flag
+					if (IsCritical())
+					{
+						info.AddDamageType(DMG_CRITICAL);
+					}
+
+					// 3. Apply damage
+					RadiusDamage(info, GetAbsOrigin(), flFinalRadius, CLASS_NONE, this);
+
+					// Particle and sound dispatch
+					DispatchParticleEffect("ExplosionCore_MidAir", GetAbsOrigin(), vec3_angle);
+					EmitSound("BaseExplosionEffect.Sound");
+				}
+
+				// Standard projectile removal logic (now safe)
+				AddEffects(EF_NODRAW);
+				SetAbsVelocity(vec3_origin);
+				SetThink(&CBaseGrenade::SUB_Remove);
+				SetNextThink(gpGlobals->curtime);
+				return;
+			}
+		}
+		// **************************************
+
+		// ORIGINAL jar/milk explosion behavior (Only runs if Mandude attribute is 0)
 		m_hEnemy = pOther;
-		Explode( &pTrace, GetDamageType() );
+		Explode(&pTrace, GetDamageType());
 	}
 }
 
@@ -589,30 +743,97 @@ void CTFProjectile_Jar::OnBreadMonsterHit( CBaseEntity *pOther, trace_t *pTrace 
 //-----------------------------------------------------------------------------
 // Purpose: 
 //-----------------------------------------------------------------------------
-void CTFProjectile_Jar::VPhysicsCollision( int index, gamevcollisionevent_t *pEvent )
+void CTFProjectile_Jar::VPhysicsCollision(int index, gamevcollisionevent_t* pEvent)
 {
-	BaseClass::VPhysicsCollision( index, pEvent );
+	BaseClass::VPhysicsCollision(index, pEvent);
 
 	int otherIndex = !index;
-	CBaseEntity *pHitEntity = pEvent->pEntities[otherIndex];
+	CBaseEntity* pHitEntity = pEvent->pEntities[otherIndex];
 
-	if ( !pHitEntity )
+	if (!pHitEntity)
 		return;
 
-	if ( pHitEntity->IsWorld() )
+	if (pHitEntity->IsWorld())
 	{
 		OnHitWorld();
 	}
 
-	// Break if we hit the world.
-	bool bIsDynamicProp = ( NULL != dynamic_cast<CDynamicProp *>( pHitEntity ) );
-	if ( ExplodesOnHit() && pHitEntity && ( pHitEntity->IsWorld() || bIsDynamicProp ) )
+	// --------------------------------------------------------------------
+	// MANDUDE OVERRIDE — this is needed because VPhysics runs before Touch
+	// --------------------------------------------------------------------
+	if (ExplodesOnHit())
+	{
+		CTFWeaponBase* pLauncher = dynamic_cast<CTFWeaponBase*>(GetLauncher());
+		if (pLauncher)
+		{
+			int iMandude = 0;
+			CALL_ATTRIB_HOOK_INT_ON_OTHER(pLauncher, iMandude, use_mandude_model);
+
+if (iMandude != 0)
+			{
+				// Produce a rocket-style explosion
+				CTFPlayer* pOwner = ToTFPlayer(GetThrower());
+				if (pOwner)
+				{
+				        // -----------------------------------------------------
+				        // DAMAGE AND RADIUS CALCULATION (Your existing logic)
+				        // -----------------------------------------------------
+				        float flDamageMultiplier = 1.0f;
+				        CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flDamageMultiplier, mult_jar_explosion_damage);
+						
+				        float flRadiusMultiplier = 1.0f; 
+				        CALL_ATTRIB_HOOK_FLOAT_ON_OTHER(pLauncher, flRadiusMultiplier, mult_jar_explosion_radius); 
+
+				        float flBaseDamage = 90.0f;
+				        float flFinalDamage = flBaseDamage * flDamageMultiplier; // <-- SCALED DAMAGE
+						
+				        float flBaseRadius = 146.0f;
+				        float flFinalRadius = flBaseRadius * flRadiusMultiplier;
+				        // -----------------------------------------------------
+
+					const trace_t* pTrace = &CBaseEntity::GetTouchTrace();
+
+					// 1. Create damage info using the final scaled damage
+					CTakeDamageInfo info(this, pOwner, flFinalDamage, DMG_BLAST);
+					info.SetWeapon(pLauncher);
+
+					// 2. CRITICAL HIT FIX: Check the projectile's crit status and apply the flag
+					if ( IsCritical() ) 
+					{
+					    // CORRECT FIX: Add the damage type flag to make it a critical hit
+					    info.AddDamageType( DMG_CRITICAL ); 
+					}
+                    
+					// 3. Apply damage
+					// Note: Use the base radius (146.0f) or your scaled radius (flFinalRadius)
+					RadiusDamage(info, GetAbsOrigin(), 146.0f, CLASS_NONE, this); 
+					
+					// Particle and sound dispatch
+					DispatchParticleEffect("ExplosionCore_MidAir", GetAbsOrigin(), vec3_angle);
+					EmitSound("BaseExplosionEffect.Sound");
+				}
+
+                // Standard projectile removal logic
+				AddEffects(EF_NODRAW);
+				SetAbsVelocity(vec3_origin);
+				SetThink(&CBaseGrenade::SUB_Remove);
+				SetNextThink(gpGlobals->curtime);
+				return;
+			}
+		}
+	}
+	// --------------------------------------------------------------------
+
+	// Break if we hit the world or a dynamic prop
+	bool bIsDynamicProp = (NULL != dynamic_cast<CDynamicProp*>(pHitEntity));
+	if (ExplodesOnHit() && pHitEntity && (pHitEntity->IsWorld() || bIsDynamicProp))
 	{
 		// Explode immediately next frame. (Can't explode in the collision callback.)
 		m_vCollisionVelocity = pEvent->preVelocity[index];
-		SetContextThink( &CTFProjectile_Jar::VPhysicsCollisionThink, gpGlobals->curtime, "JarCollisionThink" );
+		SetContextThink(&CTFProjectile_Jar::VPhysicsCollisionThink, gpGlobals->curtime, "JarCollisionThink");
 	}
 }
+
 
 //-----------------------------------------------------------------------------
 // Purpose: Handles exploding after a vphysics collision has happened.

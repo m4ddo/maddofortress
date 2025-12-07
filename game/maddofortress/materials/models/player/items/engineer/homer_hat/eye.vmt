@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/items/engineer/homer_hat/eye"
+	"$translucent" 1
+}

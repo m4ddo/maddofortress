@@ -1,0 +1,980 @@
+#base items_game.txt
+
+"items_game"
+{
+    "attributes"
+    {
+        "9001"
+        {
+            "name"  "drop medium health pack on kill"
+            "attribute_class"    "drop_med_health_pack_on_kill"
+            "description_string" "#TF3Attrib_DropMedHealthPackOnKill"
+            "description_format" "value_is_additive"
+            "hidden"    "0"
+            "effect_type"   "positive"
+            "stored_as_integer" "0"
+        }
+        "9006"
+        {
+            "name"  "wrench does quick build"
+            "attribute_class"    "wrench_does_quick_build"
+            "description_string" "#TF3Attrib_WrenchDoesQuickBuild"
+            "description_format" "value_is_additive"
+            "hidden"    "0"
+            "effect_type"   "positive"
+            "stored_as_integer" "0"
+        }
+        "9007"
+        {
+            "name"  "engy building health penalty"
+            "attribute_class"    "mult_engy_building_health"
+            "description_string" "#TF3Attrib_EngyBuildHealthPenalty"
+            "description_format" "value_is_percentage"
+            "hidden"    "0"
+            "effect_type"   "negative"
+            "stored_as_integer" "0"
+        }
+        "9019"
+        {
+            "name"              "cant stop moving"
+            "attribute_class"   "cant_stop_moving"
+            "description_string" "#TF3Attrib_CantStopMoving"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "negative"
+            "stored_as_integer" "1"
+        }
+
+        "9028"
+        {
+            "name"              "use mandude model"
+            "attribute_class"   "use_mandude_model"
+            "description_string" "#TF3Attrib_UseMandudeModel"
+            "description_format" "value_is_additive"
+            "hidden"            "1"
+            "effect_type"       "neutral"
+            "stored_as_integer" "1"
+        }
+        "9031"
+        {
+            "name"              "mandude desc pos"
+            "attribute_class"   "mandude_desc_pos"
+            "description_string" "#TF3Attrib_MandudeDescPos"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "positive"
+            "stored_as_integer" "1"
+        }
+        "9032"
+        {
+            "name"              "mandude desc neg"
+            "attribute_class"   "mandude_desc_neg"
+            "description_string" "#TF3Attrib_MandudeDescNeg"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "negative"
+            "stored_as_integer" "1"
+        }
+        "9033"
+        {
+            "name"               "effect bar recharge rate increased hidden"
+            "attribute_class"    "effectbar_recharge_rate" 
+            "description_string" "#TF3_Weapon_Mandude"
+            "description_format" "value_is_percentage"
+            "hidden"             "1"
+            "effect_type"        "neutral"
+            "stored_as_integer"  "0"
+        }
+        "9029"
+        {
+            "name"               "jar explosion damage penalty"
+            "attribute_class"    "mult_jar_explosion_damage" 
+            "description_string" "#TF3Attrib_JarExplosionDamageMult"
+            "description_format" "value_is_percentage"
+            "hidden"             "1"
+            "effect_type"        "negative"
+            "stored_as_integer"  "0"
+        }
+	"9030" 
+        {
+            "name"               "jar explosion radius penalty"
+            "attribute_class"    "mult_jar_explosion_radius" 
+            "description_string" "#TF3Attrib_JarExplosionRadiusMult"
+            "description_format" "value_is_percentage"
+            "hidden"             "1"
+            "effect_type"        "negative"
+            "stored_as_integer"  "0"
+        }
+        "9035"
+        {
+            "name"              "spore rockets"
+            "attribute_class"   "spore_rockets"
+            "description_string" "#TF3Attrib_UseMandudeModel"
+            "description_format" "value_is_additive"
+            "hidden"            "1"
+            "effect_type"       "neutral"
+            "stored_as_integer" "1"
+        }
+        "9036"
+        {
+            "name"              "rocket jump damage increased"
+            "attribute_class"   "rocket_jump_dmg_reduction"
+            "description_string" "#TF3Attrib_RocketJumpDmgIncreased"
+            "description_format" "value_is_percentage"
+            "hidden"            "0"
+            "effect_type"       "negative"
+            "stored_as_integer" "0"
+        }
+        "9037"
+        {
+            "name"              "ammo on kill"
+            "attribute_class"   "ammo_on_kill"
+            "description_string" "#TF3Attrib_AmmoOnKill"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "positive"
+            "stored_as_integer" "0"
+        }
+	"9038" 
+        {
+            "name"               "upgrade rate bonus"
+            "attribute_class"    "upgrade_rate_mod" 
+            "description_string" "#TF3Attrib_UpgradeRateBonus"
+            "description_format" "value_is_percentage"
+            "hidden"             "0"
+            "effect_type"        "positive"
+            "stored_as_integer"  "0"
+        }
+        "9039"
+        {
+            "name"              "building overheal"
+            "attribute_class"   "building_overheal"
+            "description_string" "#TF3Attrib_BuildingOverheal"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "positive"
+            "stored_as_integer" "1"
+        }
+    }
+
+    "items"
+    {
+        "9002"
+        {
+            "name"  "Valve Rocket Launcher"
+            "first_sale_date"   "2010/09/29"
+            "prefab"    "weapon_rocketlauncher no_craft"
+            "item_name"     "Valve Rocket Launcher"
+            "item_quality"  "developer"
+            "min_ilevel"    "100"
+            "max_ilevel"    "100"
+            "propername"        "1"
+            "tf3item"   "1"
+            "attributes"
+            {
+                "damage bonus"
+                {
+                    "attribute_class"    "mult_dmg"
+                    "value" "10100"
+                }
+                "clip size bonus"
+                {
+                    "attribute_class"    "mult_clipsize"
+                    "value" "1100"
+                }
+                "fire rate bonus"
+                {
+                    "attribute_class"    "mult_postfiredelay"
+                    "value" "0.25"
+                }
+                "heal on hit for rapidfire"
+                {
+                    "attribute_class"    "add_onhit_addhealth"
+                    "value" "250"
+                }
+                "critboost on kill"
+                {
+                    "attribute_class"    "add_onkill_critboost_time"
+                    "value" "10"
+                }
+                "Projectile speed increased"
+                {
+                    "attribute_class"    "mult_projectile_speed"
+                    "value" "1.5"
+                }
+                "move speed bonus"
+                {
+                    "attribute_class"    "mult_player_movespeed"
+                    "value" "2"
+                }
+                "attach particle effect"
+                {
+                    "attribute_class"    "set_attached_particle"
+                    "value" "2"
+                }
+            }
+            "xifier_class_remap"    "rocket_launcher"
+        }
+
+        "9003"
+        {
+            "name"  "The Reinforced Gunboats"
+            "first_sale_date"   "2025/07/16"
+            "item_class"    "tf_wearable"
+            "tf3item"   "1"
+            "craft_material_type"   "weapon"
+            "loadondemand" "1"
+            "item_type_name"    "#TF_Wearable_Boots"
+            "item_logname"  "reinforced_gunboats"
+            "item_name"     "The Reinforced Gunboats"
+            "item_description"    "Now with 200% more zealandium to ensure protection from even the biggest explosions!"
+            "item_slot" "primary"
+            "equip_region"  "feet"
+            "show_in_armory"    "1"
+            "item_quality"  "selfmade"
+            "propername"        "1"
+            "anim_slot"     "FORCE_NOT_USED"
+            "image_inventory"   "backpack/weapons/c_models/c_rocketboots_soldier"
+            "image_inventory_size_w"      "128"
+            "image_inventory_size_h"      "82"
+            "model_player"  "models/weapons/c_models/c_rocketboots_soldier.mdl"
+
+            "capabilities"
+            {
+                "nameable"  "1"
+            }
+
+            "tags"
+            {
+                "can_be_equipped_by_soldier_or_demo" "1"
+            }
+
+            "used_by_classes"
+            {
+                "demoman"   "1"
+                "engineer"  "1"
+            }
+
+            "attributes"
+            {
+                "rocket jump damage reduction"
+                {
+                    "attribute_class"    "rocket_jump_dmg_reduction"
+                    "value" "0"
+                }
+                "boots falling stomp"
+                {
+                    "attribute_class"    "boots_falling_stomp"
+                    "value" "1"
+                }
+                "max health additive penalty"
+                {
+                    "attribute_class"    "add_maxhealth"
+                    "value" " -25"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class"    "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+
+            "mouse_pressed_sound"  "ui/item_metal_weapon_pickup.wav"
+            "drop_sound"        "ui/item_metal_weapon_drop.wav"
+        }
+
+        "9004"
+        {
+            "name"  "The Healthy Stabber"
+            "first_sale_date"   "2025/07/16"
+            "tf3item"   "1"
+            "prefab"    "weapon_knife"
+            "item_type_name"    "#TF_Weapon_Knife"
+            "item_description"  ""
+            "item_logname"  "healthy_stabber"
+            "item_name"     "The Healthy Stabber"
+            "item_quality"  "selfmade"
+            "propername"        "1"
+
+            "capabilities"
+            {
+                "nameable"  "1"
+            }
+
+            "used_by_classes"
+            {
+                "spy"   "1"
+            }
+
+            "attributes"
+            {
+                "drop medium health pack on kill"
+                {
+                    "attribute_class"    "drop_med_health_pack_on_kill"
+                    "value"         "1"
+                }
+                "max health additive bonus"
+                {
+                    "attribute_class"    "add_maxhealth"
+                    "value" "25"
+                }
+                "mod_disguise_consumes_cloak"
+                {
+                    "attribute_class"    "mod_disguise_consumes_cloak"
+                    "value"             "1"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class"    "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+        }
+
+        "9005"
+        {
+            "name"  "The Homer"
+            "first_sale_date"   "2025/07/17"
+            "tf3item"   "1"
+            "prefab"    "weapon_wrench"
+            "item_type_name"    "#TF_Weapon_Wrench"
+            "item_description"  ""
+            "item_logname"  "homer"
+            "item_name"     "The Homer"
+            "item_quality"  "selfmade"
+            "propername"        "1"
+            "image_inventory" "backpack/weapons/c_models/c_homer"
+            "model_player"  "models/weapons/c_models/c_homer/c_homer.mdl"
+
+            "capabilities"
+            {
+                "nameable"  "1"
+            }
+
+            "used_by_classes"
+            {
+                "engineer"   "1"
+            }
+
+            "attributes"
+            {
+                "engy building health bonus"
+                {
+                    "attribute_class"    "mult_engy_building_health"
+                    "value" "1.15"
+                }
+                "damage penalty"
+                {
+                    "attribute_class"    "mult_postfiredelay"
+                    "value" "0.6"
+                }
+                "Repair rate increased"
+                {
+                    "attribute_class"    "mult_repair_value"
+                    "value" "1.25"
+                }
+                "upgrade rate bonus"
+                {
+                    "attribute_class"    "upgrade_rate_mod"
+                    "value" "2"
+                }
+                "fire rate penalty"
+                {
+                    "attribute_class"    "mult_postfiredelay"
+                    "value" "1.2"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class"    "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+        }
+        "9040"
+        {
+            "name"  "The Homer hat"
+            "first_sale_date"   "2025/07/17"
+            "tf3item"   "1"
+            "prefab"    "base_hat hat"
+            "item_type_name"    "#TF_Weapon_Wrench"
+            "item_description"  ""
+            "item_name"     "The Homer"
+            "item_quality"  "selfmade"
+            "propername"        "1"
+            "image_inventory" "backpack/weapons/c_models/c_homer"
+            "model_player"  "models/player/items/engineer/homer_hat/homer_hat.mdl"
+
+            "capabilities"
+            {
+                "nameable"  "1"
+            }
+
+            "used_by_classes"
+            {
+                "engineer"   "1"
+            }
+
+            "attributes"
+            {
+                "engy building health bonus"
+                {
+                    "attribute_class"    "mult_engy_building_health"
+                    "value" "1.15"
+                }
+            }
+        }
+
+        "9009"
+        {
+            "name"  "The Burst Blaster"
+            "first_sale_date"   "2025/11/02"
+            "tf3item"   "1"
+            "prefab"    "weapon_rocketlauncher"
+            "item_class"    "tf_weapon_rocketlauncher"
+            "item_type_name"    "#TF_Weapon_RocketLauncher"
+            "item_logname"  "burst_blaster"
+            "item_name"     "The Burst Blaster"
+            "item_description"  "Fires rockets in bursts of 3. Lower overall damage, but much faster!"
+            "item_quality"  "unique"
+            "propername"        "1"
+
+            "used_by_classes"
+            {
+                "scout"     "1"
+                "soldier"   "1"
+            }
+
+            "attributes"
+            {
+                "fire rate bonus"
+                {
+                    "attribute_class"    "mult_postfiredelay"
+                    "value" "0.3"
+                }
+                "clip size penalty"
+                {
+                    "attribute_class"    "mult_clipsize"
+                    "value" "0.5"
+                }
+                "damage penalty"
+                {
+                    "attribute_class"    "mult_dmg"
+                    "value" "0.8"
+                }
+                "projectile speed increased"
+                {
+                    "attribute_class"    "mult_projectile_speed"
+                    "value" "1.2"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class"    "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+        }
+
+        "9015"
+        {
+            "name"  "Market Saw"
+            "first_sale_date"   "2025/11/02"
+            "tf3item"  "1"
+            "prefab"   "weapon_bonesaw"
+            "item_class"  "tf_weapon_bonesaw"
+            "item_type_name"  "#TF_Weapon_Bonesaw"
+            "item_logname"  "market_saw"
+            "item_name"     "Market Saw"
+            "item_description"  "Crits airborne targets. Swing carefully!"
+            "item_quality"  "unique"
+            "propername"        "1"
+            "used_by_classes"
+            {
+                "medic"  "1"
+            }
+            "attributes"
+            {
+                "mod crit while airborne"
+                {
+                    "attribute_class" "crit_while_airborne"
+                    "value" "1"
+                }
+                "move speed penalty"
+                {
+                    "attribute_class" "mult_player_movespeed"
+                    "value" "0.95"
+                }
+                "damage bonus"
+                {
+                    "attribute_class" "mult_dmg"
+                    "value" "1.15"
+                }
+                "crit mod disabled"
+                {
+                    "attribute_class" "mult_crit_chance"
+                    "value" "0"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class" "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+        }
+
+        "9011"
+        {
+            "name"  "Rapid Revolver"
+            "first_sale_date"   "2025/11/02"
+            "tf3item"  "1"
+            "prefab"   "weapon_revolver"
+            "item_class"  "tf_weapon_revolver"
+            "item_type_name"  "#TF_Weapon_Revolver"
+            "item_logname"  "rapid_revolver"
+            "item_name"     "Rapid Revolver"
+            "item_description"  "Fires faster but with reduced accuracy."
+            "item_quality"  "unique"
+            "propername"        "1"
+            "used_by_classes"
+            {
+                "spy"  "1"
+            }
+
+            "attributes"
+            {
+                "fire rate bonus"
+                {
+                    "attribute_class" "mult_postfiredelay"
+                    "value" "0.1"
+                }
+                "damage penalty"
+                {
+                    "attribute_class" "mult_dmg"
+                    "value" "0.20"
+                }
+                "clip size bonus"
+                {
+                    "attribute_class" "mult_clipsize"
+                    "value" "5"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class" "allowed_in_medieval_mode"
+                    "value" "1"
+                }
+            }
+        }
+
+        "9018"
+        {
+            "name"              "scout knife weapon i think"
+            "first_sale_date"   "2025/11/03"
+            "tf3item"           "1"
+            "prefab"            "weapon_knife"
+            "item_class"        "tf_weapon_knife"
+            "item_type_name"    "#TF_Weapon_BostonGetup"
+            "item_logname"      "boston_getup"
+            "item_name"         "scout knife weapon i think"
+            "item_description"  "probably not overpowered riiighhtttt"
+            "item_quality"      "selfmade"
+            "propername"        "1"
+            "image_inventory" "backpack/weapons/c_models/c_knifesword"
+            "model_player"  "models/weapons/c_models/c_cus_knifesword/c_knife.mdl"
+
+            "used_by_classes"
+            {
+                "spy" "1"
+            }
+
+            "attributes"
+            {
+                "mult_player_movespeed_active"
+                {
+                    "attribute_class" "mult_player_movespeed_active"
+                    "value"           "1.33"
+                }
+                "allowed in medieval mode"
+                {
+                    "attribute_class" "allowed_in_medieval_mode"
+                    "value"           "1"
+                }
+                "heal on kill"
+                {
+                    "attribute_class" "heal_on_kill"
+                    "value"           "15"
+                }
+                "max health additive penalty"
+                {
+                    "attribute_class" "add_maxhealth"
+                    "value"           "-50"
+                }
+            }
+
+            "capabilities"
+            {
+                "nameable" "1"
+            }
+        }
+
+        "9020"
+        {
+            "name"              "The Thermal Thruster (Spy)"
+            "first_sale_date"   "2025/11/09"
+            "tf3item"           "1"
+            "item_class"        "tf_weapon_rocketpack"
+            "craft_class"       "weapon"
+            "craft_material_type"   "weapon"
+
+            "capabilities"
+            {
+                "nameable"      "1"
+            }
+
+            "item_logname"      "rocketpack_spy"
+            "item_iconname"     "rocketpack"
+            "show_in_armory"    "1"
+            "item_type_name"    "#TF_Weapon_RocketPack"
+            "item_name"         "The Thermal Thruster"
+            "item_description"  "A modified version of the Pyro's rocketpack, retrofitted for subtle espionage launches."
+            "item_slot"         "secondary"
+            "equip_region"      "back"
+            "anim_slot"         "ITEM4"
+            "image_inventory"   "backpack/weapons/c_models/c_rocketpack/c_rocketpack"
+            "image_inventory_size_w"        "128"
+            "image_inventory_size_h"        "82"
+            "inspect_panel_dist"            "60"
+            "model_player"  "models/weapons/c_models/c_rocketpack/c_rocketpack.mdl"
+            "attach_to_hands"   "1"
+            "attach_to_hands_vm_only"   "1"
+            "extra_wearable"    "models/weapons/c_models/c_rocketpack/c_rocketpack.mdl"
+            "item_quality"      "unique"
+            "propername"        "1"
+            "min_ilevel"        "1"
+            "max_ilevel"        "100"
+
+            "visuals"
+            {
+                "player_bodygroups"
+                {
+                    "backpack"      "1"
+                }
+            }
+
+            "used_by_classes"
+            {
+                "spy"   "1"
+            }
+
+            "static_attrs"
+            {
+                "min_viewmodel_offset"               "10 0 -9"
+                "damage force increase hidden"       "1.5"
+                "taunt attack name"                  "TAUNTATK_PYRO_GASBLAST"
+                "taunt attack time"                  "4.7"
+                "item_meter_charge_type"             "1"
+                "item_meter_charge_rate"             "30"
+                "holster_anim_time"                  "0.8"
+                "falling_impact_radius_pushback"     "1"
+                "thermal_thruster"                   "1"
+            }
+
+            "visuals_red"
+            {
+                "skin" "0"
+            }
+
+            "visuals_blu"
+            {
+                "skin" "1"
+            }
+
+            "mouse_pressed_sound"   "ui/item_metal_weapon_pickup.wav"
+            "drop_sound"            "ui/item_metal_weapon_drop.wav"
+        }
+
+        "9026"
+        {
+            "name"              "The Scorpio"
+            "first_sale_date"   "2025/11/15"
+            "tf3item"           "1"
+            "prefab"            "weapon_smg"
+            "item_class"        "tf_weapon_smg"
+            "item_type_name"    "#TF_Weapon_TheScorpio"
+            "item_logname"      "scorpiotommy"
+            "item_name"         "The Scorpio"
+            "item_description"  "#TF_Weapon_TheScorpio_Desc"
+            "item_quality"      "unique"
+            "propername"        "1"
+
+            "image_inventory"   "backpack/workshop/weapons/c_models/c_scorpio/c_pro_smg"
+            "model_player"      "models/workshop/weapons/c_models/c_scorpio/c_pro_smg.mdl"
+            "attach_to_hands"   "1"
+
+            "used_by_classes"
+            {
+                "sniper" "1"
+            }
+
+            "attributes"
+            {
+                "mult_player_movespeed_active"
+                {
+                    "attribute_class" "mult_player_movespeed_active"
+                    "value"           "1.15"
+                }
+                "heal on hit for rapidfire"
+                {
+                    "attribute_class" "add_onhit_addhealth"
+                    "value"           "3"
+                }
+                "damage bonus"
+                {
+                    "attribute_class" "mult_dmg"
+                    "value"           "1.20"
+                }
+                "energy buff dmg taken multiplier"
+                {
+                    "attribute_class" "energy_buff_dmg_taken_multiplier"
+                    "value"           "1.30"
+                }
+                "clip size penalty"
+                {
+                    "attribute_class" "mult_clipsize"
+                    "value"           "0.70"
+                }
+                "crits_become_minicrits"
+                {
+                    "attribute_class" "crits_become_minicrits"
+                    "value"           "1"
+                }
+                "provide on active"
+                {
+                    "attribute_class" "provide_on_active"
+                    "value"           "1"
+                }
+            }
+
+            "capabilities"
+            {
+                "nameable" "1"
+            }
+        }
+
+        "9027"
+        {
+            "name"              "Mandude"
+            "first_sale_date"   "2025/11/16"
+            "tf3item"           "1"
+            "item_class"        "tf_weapon_jar"
+            "craft_class"       "weapon"
+            "craft_material_type"   "weapon"
+            "item_type_name"    "#TF3_Weapon_Mandude"
+            "item_logname"      "mandude"
+            "item_name"         "mandude"
+            "item_description"  "throw mandude"
+            "item_quality"      "rarity2"
+            "min_ilevel"    "228"
+            "max_ilevel"    "228"
+            "propername"        "1"
+
+            "item_slot"         "secondary"
+            "anim_slot"         "item1"
+            "attach_to_hands"   "1"
+
+            "image_inventory"   "backpack/weapons/c_models/c_mandude"
+            "model_player"      "models/weapons/c_models/c_mandude/c_sd_cleaver.mdl"
+
+            "show_in_armory"    "1"
+
+            "used_by_classes"
+            {
+                "scout" "1"
+            }
+
+            "attributes"
+            {
+
+                "allowed in medieval mode"
+                {
+                    "attribute_class" "allowed_in_medieval_mode"
+                    "value"           "1"
+                }
+		
+                "use mandude model"
+                {
+                    "attribute_class" "use_mandude_model"
+                    "value"           "1"
+                }
+		"mandude desc pos"
+		{
+            	    "attribute_class"   "mandude_desc_pos"
+		    "value"             "1"
+		}
+		"mandude desc neg"
+		{
+		    "attribute_class"   "mandude_desc_neg"
+		    "value"		"1"
+		}
+		"effect bar recharge rate increased hidden"
+		{
+		    "attribute_class" "effectbar_recharge_rate"
+		    "value"           "0.01"
+		}
+		"jar explosion damage penalty"
+		{
+		    "attribute_class" "mult_jar_explosion_damage"
+		    "value"           "0.77"
+		}
+                "crit mod disabled"
+                {
+                    "attribute_class" "mult_crit_chance"
+                    "value"           "0"
+                }
+		"no double jump"
+		{
+		    "attribute_class"	"set_scout_doublejump_disabled"
+		    "value"           "1"
+		}
+		"cancel falling damage"
+		{
+		    "attribute_class"	"cancel_falling_damage"
+		    "value"           "1"
+		}
+                "max health additive bonus"
+                {
+                    "attribute_class"    "add_maxhealth"
+                    "value" "25"
+                }
+                "rocket jump damage reduction"
+                {
+                    "attribute_class"    "rocket_jump_dmg_reduction"
+                    "value" "0.5"
+                }
+                "heal on kill"
+                {
+                    "attribute_class" "heal_on_kill"
+                    "value"           "15"
+                }
+            }
+
+            "visuals"
+            {
+                "sound_deploy"      "Cleaver.Draw"
+                "sound_single_shot" "Cleaver.Single"
+            }
+
+            "mouse_pressed_sound" "ui/item_metal_weapon_pickup.wav"
+            "drop_sound"          "ui/item_metal_weapon_drop.wav"
+
+            "capabilities"
+            {
+                "nameable" "1"
+            }
+        }
+
+        "9008"
+        {
+            "name"              "Rocket Launcher"
+            "first_sale_date"   "2025/11/02"
+            "tf3item"           "1"
+            "prefab"            "weapon_rocketlauncher"
+            "item_class"        "tf_weapon_rocketlauncher"
+            "item_type_name"    "#TF_Weapon_RocketLauncher"
+            "item_logname"      "rocket_launcher"
+            "item_name"         "Rocket Launcher"
+            "item_description"  "A rocket launcher that anyone can use!"
+            "item_quality"      "developer"
+            "propername"        "1"
+
+            "used_by_classes"
+            {
+                "scout"         "1"
+                "pyro"          "1"
+                "demoman"       "1"
+                "heavy"         "1"
+                "engineer"      "1"
+                "medic"         "1"
+                "sniper"        "1"
+                "spy"           "1"
+            }
+
+            "attributes"
+            {
+                "rocket jump damage reduction"
+                {
+                    "attribute_class"    "rocket_jump_dmg_reduction"
+                    "value" "0"
+                }
+            }
+        }
+        "9034"
+        {
+            "name"              "Spore Gun"
+            "first_sale_date"   "2025/11/28"
+            "tf3item"           "1"
+            "prefab"            "weapon_rocketlauncher"
+            "item_class"        "tf_weapon_rocketlauncher"
+            "item_type_name"    "#TF3_Weapon_SporeGun"
+            "item_logname"      "spore_gun"
+            "item_name"         "Spore Gun"
+            "item_description"  "'This shoots the mushroom spores, right?'"
+            "item_quality"      "rarity2"
+            "min_ilevel"    "72"
+            "max_ilevel"    "72"
+            "propername"        "1"
+	    "item_iconname"	"spore_gun"
+            "image_inventory"   "backpack/weapons/c_models/c_sporegun"
+            "model_player"      "models/weapons/c_models/c_sporegun/c_rocketlauncher.mdl"
+            "used_by_classes"
+            {
+                "soldier"       "1"
+            }
+            "attributes"
+            {
+                "maxammo primary reduced"
+                {
+                    "attribute_class"    "mult_maxammo_primary"
+                    "value" "0.50"
+                }
+                "fire rate bonus"
+                {
+                    "attribute_class"    "mult_postfiredelay"
+                    "value" "0.75"
+                }
+                "damage penalty"
+                {
+                    "attribute_class"    "mult_dmg"
+                    "value" "0.80"
+                }
+                "spore rockets"
+                {
+                    "attribute_class"    "spore_rockets"
+                    "value" "1"
+                }
+                "mod max primary clip override"
+                {
+                    "attribute_class"    "mod_max_primary_clip_override"
+                    "value" "-1"
+                }
+                "mod no reload DISPLAY ONLY"
+                {
+                    "attribute_class"    "mod_no_reload_display_only"
+                    "value" "1"
+                }
+                "rocket jump damage increased"
+                {
+                    "attribute_class"    "rocket_jump_dmg_reduction"
+                    "value" "1.30"
+                }
+		"ammo on kill"
+		{
+		    "attribute_class"	"ammo_on_kill"
+		    "value" "2"
+		}
+            }
+	    "static_attrs"
+	    {
+		"min_viewmodel_offset"	"10 -3 -10"
+	    }
+        }
+    }
+}
