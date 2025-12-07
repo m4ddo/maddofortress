@@ -4423,7 +4423,7 @@ bool CEconItemSchema::BInitTextBuffer( CUtlBuffer &buffer, CUtlVector<CUtlString
 	Reset();
 	m_pKVRawDefinition = new KeyValues( "CEconItemSchema" );
 	// if ( m_pKVRawDefinition->LoadFromBuffer( NULL, buffer ) )
-	if (m_pKVRawDefinition->LoadFromFile(g_pFullFileSystem, "scripts/items/items_tf3_weapons.txt", "GAME"))
+	if (m_pKVRawDefinition->LoadFromFile(g_pFullFileSystem, "scripts/items/items_custom.txt", "GAME"))
 	{
 		return BInitSchema( m_pKVRawDefinition, pVecErrors )
 			&& BPostSchemaInit( pVecErrors );
