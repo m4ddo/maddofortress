@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Nov 27 10:51:50 AM
+// File generated:  Sun Dec  7 09:18:28 AM
 //
 //
 // Cvar	-	Setting
@@ -292,7 +292,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_nocrosshaironscopezoom"
 		"#Tooltip_nocrosshaironscopezoomn"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_medigun_autoheal"
@@ -324,7 +324,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "75" }
+		{ "80.839996" }
 	}
 
 	"category4"

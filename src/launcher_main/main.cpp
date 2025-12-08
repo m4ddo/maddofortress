@@ -86,7 +86,7 @@ static void *Launcher_GetProcAddress( void *pHandle, const char *pszName )
 #define MessageBox( x, text, title, y) SDL_ShowSimpleMessageBox( SDL_MESSAGEBOX_ERROR, title, text, NULL )
 #endif
 
-static const AppId_t k_unSDK2013MPAppId = 243750;
+//static const AppId_t k_unSDK2013MPAppId = 243750;
 
 #ifdef MOD_LAUNCHER
 static const AppId_t k_unMyModAppid = MOD_APPID;
@@ -217,9 +217,9 @@ static bool GetGameInstallDir( const char *pRootDir, char *pszBuf, int nBufSize 
 	}
 
 	uint32_t unLength = 0;
-	if ( pSteamApps->BIsAppInstalled( k_unSDK2013MPAppId ) )
+	if ( pSteamApps->BIsAppInstalled( 440 ) )
 	{
-		unLength = pSteamApps->GetAppInstallDir( k_unSDK2013MPAppId, pszBuf, nBufSize );
+		unLength = pSteamApps->GetAppInstallDir( 440, pszBuf, nBufSize );
 	}
 
 	UnloadSteam();
