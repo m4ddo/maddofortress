@@ -9239,6 +9239,13 @@ int CTFPlayer::OnTakeDamage( const CTakeDamageInfo &inputInfo )
 		return 0;
 	}
 
+	if (m_Shared.InCond(TF_COND_CUSTOM_SPEED_RESIST))
+	{
+		float flMasterMultiplier = 0.40f;
+		info.ScaleDamage(flMasterMultiplier);
+
+		this->m_Shared.NoteLastDamageTime(info.GetDamage());
+	}
 	// If player has Reflect Powerup, reflect damage to attacker. 
 	// We do this here, after damage modify rules to ensure distance falloff calculations have already been made before we pass that damage back to the attacker
 	if ( pTFAttacker && m_Shared.GetCarryingRuneType() == RUNE_REFLECT && pTFAttacker != this && !pTFAttacker->m_Shared.IsInvulnerable() && pTFAttacker->IsAlive() )

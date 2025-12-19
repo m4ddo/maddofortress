@@ -6,7 +6,7 @@
 	}
 	"pl_upward"
 	{
-		"viewed"		"307"
+		"viewed"		"326"
 	}
 	"itemtest"
 	{
@@ -26,7 +26,7 @@
 	}
 	"mvm_rottenburg"
 	{
-		"viewed"		"4"
+		"viewed"		"5"
 	}
 	"ctf_well"
 	{
@@ -50,6 +50,6 @@
 	}
 	"mvm_bigrock"
 	{
-		"viewed"		"1"
+		"viewed"		"2"
 	}
 }

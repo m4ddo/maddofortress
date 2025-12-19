@@ -54,6 +54,7 @@ MedigunEffects_t g_MedigunEffects[MEDIGUN_NUM_CHARGE_TYPES] =
 	{ TF_COND_MEDIGUN_UBER_BULLET_RESIST,	TF_COND_LAST,					 "WeaponMedigun_Vaccinator.InvulnerableOn",		"WeaponMedigun_Vaccinator.InvulnerableOff" },		// TF_COND_MEDIGUN_UBER_BULLET_RESIST,
 	{ TF_COND_MEDIGUN_UBER_BLAST_RESIST,	TF_COND_LAST,					 "WeaponMedigun_Vaccinator.InvulnerableOn",		"WeaponMedigun_Vaccinator.InvulnerableOff" },		// TF_COND_MEDIGUN_UBER_BLAST_RESIST,
 	{ TF_COND_MEDIGUN_UBER_FIRE_RESIST,		TF_COND_LAST,					 "WeaponMedigun_Vaccinator.InvulnerableOn",		"WeaponMedigun_Vaccinator.InvulnerableOff" },		// TF_COND_MEDIGUN_UBER_FIRE_RESIST,
+	{ TF_COND_CUSTOM_SPEED_RESIST,			TF_COND_LAST,					 "TFPlayer.QuickFixInvulnerableOn",				"TFPlayer.MegaHealOff" },		// MEDIGUN_CHARGE_MEGAHEAL,
 };
 
 struct MedigunResistConditions_t
@@ -213,6 +214,7 @@ const char *g_pszMedigunHealSounds[] =
 	"WeaponMedigun_Vaccinator.Healing",	// MEDIGUN_CHARGE_BULLET_RESIST,
 	"WeaponMedigun_Vaccinator.Healing",	// MEDIGUN_CHARGE_BLAST_RESIST,
 	"WeaponMedigun_Vaccinator.Healing",	// MEDIGUN_CHARGE_FIRE_RESIST,
+	"WeaponMedigun.HealingWorld",       // SPEED_RESIST (Index 6)
 };
 COMPILE_TIME_ASSERT( ARRAYSIZE( g_pszMedigunHealSounds ) == MEDIGUN_NUM_CHARGE_TYPES );
 

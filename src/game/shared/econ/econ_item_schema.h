@@ -1280,7 +1280,7 @@ public:
 	bool		IsImported( void ) const			{ return m_bImported; }
 	bool		IsAllowedInMatch( void ) const		{ return m_bAllowedInThisMatch; }
 	bool		IsBaseItem( void ) const			{ return m_bBaseItem; }
-	bool		IsTF3Item(void) const				{ return m_bTF3Item; }
+	bool		IsMF2Item(void) const				{ return m_bMF2Item; }
 	bool		IsBundle( void ) const				{ return m_BundleInfo != NULL; }
 	bool		HasProperName( void ) const			{ return m_bProperName; }
 	const char	*GetClassToken( void ) const		{ return m_pszClassToken; }
@@ -1601,7 +1601,7 @@ private:
 	bool			m_bHidden;
 	bool			m_bShouldShowInArmory;
 	bool			m_bBaseItem;
-	bool			m_bTF3Item;
+	bool			m_bMF2Item;
 	bool			m_bImported;
 
 	// A pack bundle is a bundle that contains items that are not for sale individually
@@ -2612,8 +2612,8 @@ public:
 	typedef CUtlMap<int, CEconItemDefinition*, int>	BaseItemDefinitionMap_t;
 	const BaseItemDefinitionMap_t &GetBaseItemDefinitionMap() const { return m_mapBaseItems; }
 
-	typedef CUtlMap<int, CEconItemDefinition*, int>	TF3ItemDefinitionMap_t;
-	const TF3ItemDefinitionMap_t& GetTF3ItemDefinitionMap() const { return m_mapTF3Items; }
+	typedef CUtlMap<int, CEconItemDefinition*, int>	MF2ItemDefinitionMap_t;
+	const MF2ItemDefinitionMap_t& GetMF2ItemDefinitionMap() const { return m_mapMF2Items; }
 
 	typedef CUtlDict<CEconLootListDefinition *>	LootListDefinitionMap_t;
 	const LootListDefinitionMap_t &GetLootLists() const { return m_dictLootLists; }
@@ -2930,8 +2930,8 @@ private:
 	// List of all base items, is a sublist of mapItems
 	BaseItemDefinitionMap_t								m_mapBaseItems;
 
-	// List of all TF3 items, is a sublist of mapItems
-	TF3ItemDefinitionMap_t								m_mapTF3Items;
+	// List of all MF2 items, is a sublist of mapItems
+	MF2ItemDefinitionMap_t								m_mapMF2Items;
 
 #if defined(CLIENT_DLL) || defined(GAME_DLL)
 	// What is the default item definition we'll return in the client code if we can't find the correct one?

@@ -217,7 +217,7 @@ CTFInventoryManager::CTFInventoryManager( void )
 CTFInventoryManager::~CTFInventoryManager( void )
 {
 	m_pBaseLoadoutItems.PurgeAndDeleteElements();
-	m_pTF3LoadoutItems.PurgeAndDeleteElements();
+	m_pMF2LoadoutItems.PurgeAndDeleteElements();
 }
 
 //-----------------------------------------------------------------------------
@@ -230,9 +230,9 @@ void CTFInventoryManager::PostInit( void )
 }
 
 //-----------------------------------------------------------------------------
-// Purpose: Generate TF3 Items in backpack
+// Purpose: Generate MF2 Items in backpack
 //-----------------------------------------------------------------------------
-CEconItemView* CTFInventoryManager::AddTF3Item(int id)
+CEconItemView* CTFInventoryManager::AddMF2Item(int id)
 {
 	CEconItemView* pItemView = new CEconItemView;
 	CEconItem* pItem = new CEconItem;
@@ -242,7 +242,7 @@ CEconItemView* CTFInventoryManager::AddTF3Item(int id)
 	pItemView->Init(id, AE_USE_SCRIPT_VALUE, AE_USE_SCRIPT_VALUE, false);
 	pItemView->SetItemID(id);
 	pItemView->SetNonSOEconItem(pItem);
-	m_pTF3LoadoutItems.AddToTail(pItemView);
+	m_pMF2LoadoutItems.AddToTail(pItemView);
 	return pItemView;
 }
 
@@ -253,7 +253,7 @@ void CTFInventoryManager::GenerateBaseItems(void)
 {
 	// Purge our lists and make new
 	m_pBaseLoadoutItems.PurgeAndDeleteElements();
-	m_pTF3LoadoutItems.PurgeAndDeleteElements();
+	m_pMF2LoadoutItems.PurgeAndDeleteElements();
 
 	// Load a base top level invalid item
 	{
@@ -269,14 +269,14 @@ void CTFInventoryManager::GenerateBaseItems(void)
 		pItem->Init(mapItems[it]->GetDefinitionIndex(), AE_USE_SCRIPT_VALUE, AE_USE_SCRIPT_VALUE, false);
 		m_pBaseLoadoutItems.AddToTail(pItem);
 	}
-	// Add custom TF3 items
-	const CEconItemSchema::BaseItemDefinitionMap_t& mapItemsTF3 = GetItemSchema()->GetTF3ItemDefinitionMap();
+	// Add custom MF2 items
+	const CEconItemSchema::BaseItemDefinitionMap_t& mapItemsMF2 = GetItemSchema()->GetMF2ItemDefinitionMap();
 	iStart = 0;
-	if (mapItemsTF3.Count() != 0)
+	if (mapItemsMF2.Count() != 0)
 	{
-		for (int it = iStart; it != mapItemsTF3.InvalidIndex(); it = mapItemsTF3.NextInorder(it))
-			AddTF3Item(mapItemsTF3[it]->GetDefinitionIndex());
-		Msg("Loaded %i TF3 items.\n", mapItemsTF3.Count());
+		for (int it = iStart; it != mapItemsMF2.InvalidIndex(); it = mapItemsMF2.NextInorder(it))
+			AddMF2Item(mapItemsMF2[it]->GetDefinitionIndex());
+		Msg("Loaded %i MF2 items.\n", mapItemsMF2.Count());
 	};
 }
 
@@ -296,10 +296,10 @@ bool CTFInventoryManager::EquipItemInLoadout( int iClass, int iSlot, itemid_t iI
 	CEconItemView* pItem = m_LocalInventory.GetInventoryItemByItemID( iItemID );
 	if (iItemID < 100000)
 	{
-		int count = TFInventoryManager()->GetTF3ItemCount();
+		int count = TFInventoryManager()->GetMF2ItemCount();
 		for (int i = 0; i < count; i++ )
 		{
-			pItem = TFInventoryManager()->GetTF3Item(i);
+			pItem = TFInventoryManager()->GetMF2Item(i);
 			if (pItem && pItem->GetItemDefIndex() == iItemID )
 				break;
 		}
@@ -367,10 +367,10 @@ int	CTFInventoryManager::GetAllUsableItemsForSlot( int iClass, int iSlot, CUtlVe
 		pList->AddToTail( m_LocalInventory.GetItem(i) );
 	}
 
-	iCount = m_pTF3LoadoutItems.Count();
+	iCount = m_pMF2LoadoutItems.Count();
 	for (int i = 0; i < iCount; i++)
 	{
-		CEconItemView* pItem = m_pTF3LoadoutItems[i];
+		CEconItemView* pItem = m_pMF2LoadoutItems[i];
 		CTFItemDefinition* pItemData = pItem->GetStaticData();
 		if (!bIsAccountIndex && !pItemData->CanBeUsedByClass(iClass))
 			continue;
@@ -1101,10 +1101,10 @@ void CTFPlayerInventory::EquipLocal(uint64 ulItemID, equipped_class_t unClass, e
 	itemid_t ulPreviousItem = m_LoadoutItems[unClass][unSlot];
 	if (ulPreviousItem != 0 && ulPreviousItem < 100000)
 	{
-		int count = TFInventoryManager()->GetTF3ItemCount();
+		int count = TFInventoryManager()->GetMF2ItemCount();
 		for (int i = 0; i < count; i++)
 		{
-			CEconItemView* pItem = TFInventoryManager()->GetTF3Item(i);
+			CEconItemView* pItem = TFInventoryManager()->GetMF2Item(i);
 			if (pItem && pItem->GetItemDefIndex() == ulPreviousItem)
 				pItem->GetSOCData()->UnequipFromClass(unClass);
 		}
@@ -1123,11 +1123,11 @@ void CTFPlayerInventory::EquipLocal(uint64 ulItemID, equipped_class_t unClass, e
 	// Equip the new item and add it to our loadout.
 	if (ulItemID < 100000)
 	{
-		int count = TFInventoryManager()->GetTF3ItemCount();
+		int count = TFInventoryManager()->GetMF2ItemCount();
 		CEconItemView* pItem;
 		for (int i = 0; i < count; i++)
 		{
-			pItem = TFInventoryManager()->GetTF3Item(i);
+			pItem = TFInventoryManager()->GetMF2Item(i);
 			if (pItem && pItem->GetItemDefIndex() == ulItemID)
 			{
 				pItem->GetSOCData()->Equip(unClass, unSlot);
@@ -1136,7 +1136,7 @@ void CTFPlayerInventory::EquipLocal(uint64 ulItemID, equipped_class_t unClass, e
 		}
 		if (!pItem)
 		{
-			pItem = TFInventoryManager()->AddTF3Item(ulItemID);
+			pItem = TFInventoryManager()->AddMF2Item(ulItemID);
 			if (pItem && pItem->GetItemDefIndex() == ulItemID)
 				pItem->GetSOCData()->Equip(unClass, unSlot);
 		}
@@ -1552,17 +1552,17 @@ CEconItemView *CTFPlayerInventory::GetItemInLoadout( int iClass, int iSlot )
 
 			if (m_LoadoutItems[iClass][iSlot] < 100000)
 			{
-				int count = TFInventoryManager()->GetTF3ItemCount();
+				int count = TFInventoryManager()->GetMF2ItemCount();
 				for (int i = 0; i < count; i++)
 				{
-					CEconItemView *pItem = TFInventoryManager()->GetTF3Item(i);
+					CEconItemView *pItem = TFInventoryManager()->GetMF2Item(i);
 					if (pItem && pItem->GetItemDefIndex() == m_LoadoutItems[iClass][iSlot])
 					{
 						if (pItem && AreSlotsConsideredIdentical(pItem->GetStaticData()->GetEquipType(), pItem->GetStaticData()->GetLoadoutSlot(iClass), iSlot))
 							return pItem;
 					}
 				}
-				return TFInventoryManager()->AddTF3Item( m_LoadoutItems[iClass][iSlot] );
+				return TFInventoryManager()->AddMF2Item( m_LoadoutItems[iClass][iSlot] );
 			}
 		}
 	}

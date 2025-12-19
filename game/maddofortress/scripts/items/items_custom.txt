@@ -8,7 +8,7 @@
         {
             "name"  "drop medium health pack on kill"
             "attribute_class"    "drop_med_health_pack_on_kill"
-            "description_string" "#TF3Attrib_DropMedHealthPackOnKill"
+            "description_string" "#MF2Attrib_DropMedHealthPackOnKill"
             "description_format" "value_is_additive"
             "hidden"    "0"
             "effect_type"   "positive"
@@ -18,7 +18,7 @@
         {
             "name"  "wrench does quick build"
             "attribute_class"    "wrench_does_quick_build"
-            "description_string" "#TF3Attrib_WrenchDoesQuickBuild"
+            "description_string" "#MF2Attrib_WrenchDoesQuickBuild"
             "description_format" "value_is_additive"
             "hidden"    "0"
             "effect_type"   "positive"
@@ -28,7 +28,7 @@
         {
             "name"  "engy building health penalty"
             "attribute_class"    "mult_engy_building_health"
-            "description_string" "#TF3Attrib_EngyBuildHealthPenalty"
+            "description_string" "#MF2Attrib_EngyBuildHealthPenalty"
             "description_format" "value_is_percentage"
             "hidden"    "0"
             "effect_type"   "negative"
@@ -38,7 +38,7 @@
         {
             "name"              "cant stop moving"
             "attribute_class"   "cant_stop_moving"
-            "description_string" "#TF3Attrib_CantStopMoving"
+            "description_string" "#MF2Attrib_CantStopMoving"
             "description_format" "value_is_additive"
             "hidden"            "0"
             "effect_type"       "negative"
@@ -49,7 +49,7 @@
         {
             "name"              "use mandude model"
             "attribute_class"   "use_mandude_model"
-            "description_string" "#TF3Attrib_UseMandudeModel"
+            "description_string" "#MF2Attrib_UseMandudeModel"
             "description_format" "value_is_additive"
             "hidden"            "1"
             "effect_type"       "neutral"
@@ -59,7 +59,7 @@
         {
             "name"              "mandude desc pos"
             "attribute_class"   "mandude_desc_pos"
-            "description_string" "#TF3Attrib_MandudeDescPos"
+            "description_string" "#MF2Attrib_MandudeDescPos"
             "description_format" "value_is_additive"
             "hidden"            "0"
             "effect_type"       "positive"
@@ -69,7 +69,7 @@
         {
             "name"              "mandude desc neg"
             "attribute_class"   "mandude_desc_neg"
-            "description_string" "#TF3Attrib_MandudeDescNeg"
+            "description_string" "#MF2Attrib_MandudeDescNeg"
             "description_format" "value_is_additive"
             "hidden"            "0"
             "effect_type"       "negative"
@@ -79,7 +79,7 @@
         {
             "name"               "effect bar recharge rate increased hidden"
             "attribute_class"    "effectbar_recharge_rate" 
-            "description_string" "#TF3_Weapon_Mandude"
+            "description_string" "#MF2_Weapon_Mandude"
             "description_format" "value_is_percentage"
             "hidden"             "1"
             "effect_type"        "neutral"
@@ -89,7 +89,7 @@
         {
             "name"               "jar explosion damage penalty"
             "attribute_class"    "mult_jar_explosion_damage" 
-            "description_string" "#TF3Attrib_JarExplosionDamageMult"
+            "description_string" "#MF2Attrib_JarExplosionDamageMult"
             "description_format" "value_is_percentage"
             "hidden"             "1"
             "effect_type"        "negative"
@@ -99,7 +99,7 @@
         {
             "name"               "jar explosion radius penalty"
             "attribute_class"    "mult_jar_explosion_radius" 
-            "description_string" "#TF3Attrib_JarExplosionRadiusMult"
+            "description_string" "#MF2Attrib_JarExplosionRadiusMult"
             "description_format" "value_is_percentage"
             "hidden"             "1"
             "effect_type"        "negative"
@@ -109,7 +109,7 @@
         {
             "name"              "spore rockets"
             "attribute_class"   "spore_rockets"
-            "description_string" "#TF3Attrib_UseMandudeModel"
+            "description_string" "#MF2Attrib_UseMandudeModel"
             "description_format" "value_is_additive"
             "hidden"            "1"
             "effect_type"       "neutral"
@@ -119,7 +119,7 @@
         {
             "name"              "rocket jump damage increased"
             "attribute_class"   "rocket_jump_dmg_reduction"
-            "description_string" "#TF3Attrib_RocketJumpDmgIncreased"
+            "description_string" "#MF2Attrib_RocketJumpDmgIncreased"
             "description_format" "value_is_percentage"
             "hidden"            "0"
             "effect_type"       "negative"
@@ -129,7 +129,7 @@
         {
             "name"              "ammo on kill"
             "attribute_class"   "ammo_on_kill"
-            "description_string" "#TF3Attrib_AmmoOnKill"
+            "description_string" "#MF2Attrib_AmmoOnKill"
             "description_format" "value_is_additive"
             "hidden"            "0"
             "effect_type"       "positive"
@@ -139,7 +139,7 @@
         {
             "name"               "upgrade rate bonus"
             "attribute_class"    "upgrade_rate_mod" 
-            "description_string" "#TF3Attrib_UpgradeRateBonus"
+            "description_string" "#MF2Attrib_UpgradeRateBonus"
             "description_format" "value_is_percentage"
             "hidden"             "0"
             "effect_type"        "positive"
@@ -149,10 +149,20 @@
         {
             "name"              "building overheal"
             "attribute_class"   "building_overheal"
-            "description_string" "#TF3Attrib_BuildingOverheal"
+            "description_string" "#MF2Attrib_BuildingOverheal"
             "description_format" "value_is_additive"
             "hidden"            "0"
             "effect_type"       "positive"
+            "stored_as_integer" "1"
+        }
+        "9042"
+        {
+            "name"              "fast medigun"
+            "attribute_class"   "set_charge_type"
+            "description_string" "#MF2Attrib_FastMedigun"
+            "description_format" "value_is_additive"
+            "hidden"            "0"
+            "effect_type"       "neutral"
             "stored_as_integer" "1"
         }
     }
@@ -169,7 +179,7 @@
             "min_ilevel"    "100"
             "max_ilevel"    "100"
             "propername"        "1"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "attributes"
             {
                 "damage bonus"
@@ -221,7 +231,7 @@
             "name"  "The Reinforced Gunboats"
             "first_sale_date"   "2025/07/16"
             "item_class"    "tf_wearable"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "craft_material_type"   "weapon"
             "loadondemand" "1"
             "item_type_name"    "#TF_Wearable_Boots"
@@ -287,7 +297,7 @@
         {
             "name"  "The Healthy Stabber"
             "first_sale_date"   "2025/07/16"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "prefab"    "weapon_knife"
             "item_type_name"    "#TF_Weapon_Knife"
             "item_description"  ""
@@ -335,7 +345,7 @@
         {
             "name"  "The Homer"
             "first_sale_date"   "2025/07/17"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "prefab"    "weapon_wrench"
             "item_type_name"    "#TF_Weapon_Wrench"
             "item_description"  ""
@@ -394,7 +404,7 @@
         {
             "name"  "The Homer hat"
             "first_sale_date"   "2025/07/17"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "prefab"    "base_hat hat"
             "item_type_name"    "#TF_Weapon_Wrench"
             "item_description"  ""
@@ -428,7 +438,7 @@
         {
             "name"  "The Burst Blaster"
             "first_sale_date"   "2025/11/02"
-            "tf3item"   "1"
+            "mf2item"   "1"
             "prefab"    "weapon_rocketlauncher"
             "item_class"    "tf_weapon_rocketlauncher"
             "item_type_name"    "#TF_Weapon_RocketLauncher"
@@ -478,7 +488,7 @@
         {
             "name"  "Market Saw"
             "first_sale_date"   "2025/11/02"
-            "tf3item"  "1"
+            "mf2item"  "1"
             "prefab"   "weapon_bonesaw"
             "item_class"  "tf_weapon_bonesaw"
             "item_type_name"  "#TF_Weapon_Bonesaw"
@@ -525,7 +535,7 @@
         {
             "name"  "Rapid Revolver"
             "first_sale_date"   "2025/11/02"
-            "tf3item"  "1"
+            "mf2item"  "1"
             "prefab"   "weapon_revolver"
             "item_class"  "tf_weapon_revolver"
             "item_type_name"  "#TF_Weapon_Revolver"
@@ -568,7 +578,7 @@
         {
             "name"              "scout knife weapon i think"
             "first_sale_date"   "2025/11/03"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "prefab"            "weapon_knife"
             "item_class"        "tf_weapon_knife"
             "item_type_name"    "#TF_Weapon_BostonGetup"
@@ -619,7 +629,7 @@
         {
             "name"              "The Thermal Thruster (Spy)"
             "first_sale_date"   "2025/11/09"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "item_class"        "tf_weapon_rocketpack"
             "craft_class"       "weapon"
             "craft_material_type"   "weapon"
@@ -695,7 +705,7 @@
         {
             "name"              "The Scorpio"
             "first_sale_date"   "2025/11/15"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "prefab"            "weapon_smg"
             "item_class"        "tf_weapon_smg"
             "item_type_name"    "#TF_Weapon_TheScorpio"
@@ -763,11 +773,11 @@
         {
             "name"              "Mandude"
             "first_sale_date"   "2025/11/16"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "item_class"        "tf_weapon_jar"
             "craft_class"       "weapon"
             "craft_material_type"   "weapon"
-            "item_type_name"    "#TF3_Weapon_Mandude"
+            "item_type_name"    "#MF2_Weapon_Mandude"
             "item_logname"      "mandude"
             "item_name"         "mandude"
             "item_description"  "throw mandude"
@@ -875,7 +885,7 @@
         {
             "name"              "Rocket Launcher"
             "first_sale_date"   "2025/11/02"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "prefab"            "weapon_rocketlauncher"
             "item_class"        "tf_weapon_rocketlauncher"
             "item_type_name"    "#TF_Weapon_RocketLauncher"
@@ -910,10 +920,10 @@
         {
             "name"              "Spore Gun"
             "first_sale_date"   "2025/11/28"
-            "tf3item"           "1"
+            "mf2item"           "1"
             "prefab"            "weapon_rocketlauncher"
             "item_class"        "tf_weapon_rocketlauncher"
-            "item_type_name"    "#TF3_Weapon_SporeGun"
+            "item_type_name"    "#MF2_Weapon_SporeGun"
             "item_logname"      "spore_gun"
             "item_name"         "Spore Gun"
             "item_description"  "'This shoots the mushroom spores, right?'"
@@ -975,6 +985,41 @@
 	    {
 		"min_viewmodel_offset"	"10 -3 -10"
 	    }
+        }
+        "9041"
+        {
+            "name"              "fast medigun"
+            "first_sale_date"   "2025/11/02"
+            "mf2item"           "1"
+            "prefab"            "weapon_medigun"
+            "item_class"        "tf_weapon_medigun"
+            "item_type_name"    "#TF_Weapon_Medigun"
+            "item_logname"      "fast_medigun"
+            "item_name"         "fast medigun"
+            "item_description"  "wip"
+            "item_quality"      "developer"
+            "propername"        "1"
+            "image_inventory" "backpack/weapons/c_models/c_homer"
+            "model_player"  "models/weapons/c_models/c_homer/c_homer.mdl"
+
+            "used_by_classes"
+            {
+                "medic"         "1"
+            }
+
+            "attributes"
+            {
+                "fast medigun"
+                {
+                    "attribute_class"    "set_charge_type"
+                    "value" "6"
+                }
+		"ubercharge rate bonus"
+		{
+		    "attribute_class"	"mult_medigun_uberchargerate"
+		    "value" "30"
+		}
+            }
         }
     }
 }

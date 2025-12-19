@@ -1854,7 +1854,18 @@ void CTFPlayerShared::OnConditionAdded( ETFCond eCond )
 	case TF_COND_HALLOWEEN_HELL_HEAL:
 		OnAddHalloweenHellHeal();
 		break;
+	case TF_COND_CUSTOM_SPEED_RESIST: // Your Master Condition
+	{
+		// Automatically add the built-in speed boost (35% + FOV + Wind lines)
+		AddCond(TF_COND_SPEED_BOOST);
 
+		// Automatically add a built-in resistance (like the Battalion's Backup)
+		AddCond(TF_COND_DEFENSEBUFF);
+
+		// Note: Since we are using standard conditions, the game 
+		// handles the particles and math for us!
+	}
+	break;
 
 	default:
 		break;
@@ -2199,7 +2210,12 @@ void CTFPlayerShared::OnConditionRemoved( ETFCond eCond )
 		OnRemoveHalloweenHellHeal();
 		break;
 
-
+	case TF_COND_CUSTOM_SPEED_RESIST:
+	{
+		RemoveCond(TF_COND_SPEED_BOOST);
+		RemoveCond(TF_COND_DEFENSEBUFF);
+	}
+	break;
 	default:
 		break;
 	}
@@ -2959,6 +2975,7 @@ void CTFPlayerShared::ConditionGameRulesThink( void )
 	//TestAndExpireChargeEffect( MEDIGUN_CHARGE_BULLET_RESIST );
 	//TestAndExpireChargeEffect( MEDIGUN_CHARGE_BLAST_RESIST );
 	//TestAndExpireChargeEffect( MEDIGUN_CHARGE_FIRE_RESIST );
+	TestAndExpireChargeEffect(MEDIGUN_CHARGE_SPEED_RESIST);
 
 	if ( InCond( TF_COND_STEALTHED_BLINK ) )
 	{
@@ -8810,6 +8827,7 @@ void CTFPlayerShared::RecalculateChargeEffects( bool bInstantRemove )
 	SetChargeEffect( MEDIGUN_CHARGE_BULLET_RESIST,	aCharges[MEDIGUN_CHARGE_BULLET_RESIST].bActive,	bInstantRemove, g_MedigunEffects[ MEDIGUN_CHARGE_BULLET_RESIST ],	0.0f,						aCharges[MEDIGUN_CHARGE_BULLET_RESIST].pProvider );
 	SetChargeEffect( MEDIGUN_CHARGE_BLAST_RESIST,	aCharges[MEDIGUN_CHARGE_BLAST_RESIST].bActive,	bInstantRemove, g_MedigunEffects[ MEDIGUN_CHARGE_BLAST_RESIST ],	0.0f,						aCharges[MEDIGUN_CHARGE_BLAST_RESIST].pProvider );
 	SetChargeEffect( MEDIGUN_CHARGE_FIRE_RESIST,	aCharges[MEDIGUN_CHARGE_FIRE_RESIST].bActive,	bInstantRemove, g_MedigunEffects[ MEDIGUN_CHARGE_FIRE_RESIST ],		0.0f,						aCharges[MEDIGUN_CHARGE_FIRE_RESIST].pProvider );
+	SetChargeEffect(MEDIGUN_CHARGE_SPEED_RESIST, aCharges[MEDIGUN_CHARGE_SPEED_RESIST].bActive, bInstantRemove, g_MedigunEffects[MEDIGUN_CHARGE_SPEED_RESIST], 0.0f, aCharges[MEDIGUN_CHARGE_SPEED_RESIST].pProvider);
 }
 
 //-----------------------------------------------------------------------------
@@ -10826,6 +10844,15 @@ float CTFPlayer::TeamFortress_CalculateMaxSpeed( bool bIgnoreSpecialAbility /*= 
 		if ( maxfbspeed > 0.0f )
 		{
 			maxfbspeed += MIN( maxfbspeed * 0.4f, tf_whip_speed_increase.GetFloat() );
+		}
+	}
+	if (m_Shared.InCond(TF_COND_CUSTOM_SPEED_RESIST))
+	{
+		if (maxfbspeed > 0.0f)
+		{
+			// 1.35f = 35% speed boost (Matches the Soldier's Banner boost)
+			// Use 1.50f if you want it to feel very fast
+			maxfbspeed *= 1.35f;
 		}
 	}
 #endif

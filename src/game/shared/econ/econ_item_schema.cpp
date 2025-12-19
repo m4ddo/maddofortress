@@ -2306,7 +2306,7 @@ m_bIsPackBundle( false ),
 m_pOwningPackBundle( NULL ),
 m_bIsPackItem( false ),
 m_bBaseItem( false ),
-m_bTF3Item( false ),
+m_bMF2Item( false ),
 m_pszItemLogClassname( NULL ),
 m_pszItemIconClassname( NULL ),
 m_pszDatabaseAuditTable( NULL ),
@@ -3178,7 +3178,7 @@ bool CEconItemDefinition::BInitFromKV( KeyValues *pKVItem, CUtlVector<CUtlString
 	m_bHidden = m_pKVItem->GetInt( "hidden", 0 ) != 0;
 	m_bShouldShowInArmory = m_pKVItem->GetInt( "show_in_armory", 0 ) != 0;
 	m_bBaseItem = m_pKVItem->GetInt( "baseitem", 0 ) != 0;
-	m_bTF3Item = m_pKVItem->GetInt("tf3item", 0) != 0;
+	m_bMF2Item = m_pKVItem->GetInt("mf2item", 0) != 0;
 	m_pszItemLogClassname = m_pKVItem->GetString( "item_logname", NULL );
 	m_pszItemIconClassname = m_pKVItem->GetString( "item_iconname", NULL );
 	m_pszDatabaseAuditTable = m_pKVItem->GetString( "database_audit_table", NULL );
@@ -3807,7 +3807,7 @@ CEconItemSchema::CEconItemSchema( )
 ,	m_mapToolsItems( DefLessFunc(int) )
 ,	m_mapPaintKitTools( DefLessFunc(uint32) )
 ,	m_mapBaseItems( DefLessFunc(int) )
-,   m_mapTF3Items( DefLessFunc(int) )
+,   m_mapMF2Items( DefLessFunc(int) )
 ,	m_unVersion( 0 )
 #if defined(CLIENT_DLL) || defined(GAME_DLL)
 ,	m_pDefaultItemDefinition( NULL )
@@ -4302,7 +4302,7 @@ void CEconItemSchema::Reset( void )
 	m_mapToolsItems.Purge();
 	m_mapPaintKitTools.Purge();
 	m_mapBaseItems.Purge();
-	m_mapTF3Items.Purge();
+	m_mapMF2Items.Purge();
 	m_mapRecipes.PurgeAndDeleteElements();
 	m_vecTimedRewards.Purge();
 	m_dictItemSets.PurgeAndDeleteElements();
@@ -5278,7 +5278,7 @@ bool CEconItemSchema::BInitItems( KeyValues *pKVItems, CUtlVector<CUtlString> *p
 	m_mapToolsItems.Purge();
 	m_mapPaintKitTools.Purge();
 	m_mapBaseItems.Purge();
-	m_mapTF3Items.Purge();
+	m_mapMF2Items.Purge();
 	m_vecBundles.Purge();
 	m_mapQuestObjectives.PurgeAndDeleteElements();
 
@@ -5348,9 +5348,9 @@ bool CEconItemSchema::BInitItems( KeyValues *pKVItems, CUtlVector<CUtlString> *p
 				{
 					m_mapBaseItems.Insert( nItemIndex, pItemDef );
 				}
-				if ( pItemDef->IsTF3Item() )
+				if ( pItemDef->IsMF2Item() )
 				{
-					m_mapTF3Items.Insert( nItemIndex, pItemDef );
+					m_mapMF2Items.Insert( nItemIndex, pItemDef );
 				}	
 
 				// Cache off bundles for the link phase below.

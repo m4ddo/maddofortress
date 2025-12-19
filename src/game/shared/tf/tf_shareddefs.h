@@ -594,6 +594,8 @@ enum medigun_charge_types
 	MEDIGUN_CHARGE_BLAST_RESIST,
 	MEDIGUN_CHARGE_FIRE_RESIST,
 
+	MEDIGUN_CHARGE_SPEED_RESIST, //my NEW awesome medigun Because its awesome
+
 	MEDIGUN_NUM_CHARGE_TYPES,
 };
 
@@ -822,10 +824,10 @@ enum ETFCond
 	TF_COND_HALLOWEEN_HELL_HEAL              = 128,
 	TF_COND_POWERUPMODE_DOMINANT			 = 129,
 	TF_COND_IMMUNE_TO_PUSHBACK				 = 130,
+	TF_COND_CUSTOM_SPEED_RESIST = 131, // Custom speed resist for any class
 		//
 	// ADD NEW ITEMS HERE TO AVOID BREAKING DEMOS
 	//
-
 	// ******** Keep this block last! ********
 	// Keep experimental conditions below and graduate out of it before shipping
 
