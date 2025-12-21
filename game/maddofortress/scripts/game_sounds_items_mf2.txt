@@ -1,0 +1,15 @@
+"Weapon_Homer.Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_80dB"
+	"volume"		"1.0"
+	
+	"rndwave"
+	{
+		"wave"		")weapons/doh1.wav"
+		"wave"		")weapons/doh2.wav"
+		"wave"		")weapons/doh3.wav"
+		"wave"		")weapons/doh4.wav"
+		"wave"		")weapons/doh5.wav"
+	}
+}

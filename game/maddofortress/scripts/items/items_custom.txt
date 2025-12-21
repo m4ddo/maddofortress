@@ -347,8 +347,8 @@
             "first_sale_date"   "2025/07/17"
             "mf2item"   "1"
             "prefab"    "weapon_wrench"
-            "item_type_name"    "#TF_Weapon_Wrench"
-            "item_description"  ""
+            "item_type_name"    "#MF2_Homer"
+            "item_description"  "Hold the head carefully."
             "item_logname"  "homer"
             "item_name"     "The Homer"
             "item_quality"  "selfmade"
@@ -399,6 +399,13 @@
                     "value" "1"
                 }
             }
+	    "visuals"
+            {
+                "sound_melee_hit"	   "Weapon_Homer.Hit"
+                "sound_melee_hit_world"    "Weapon_Homer.Hit"
+		"sound_special1"	   "Weapon_Homer.Hit"
+		"sound_melee_hit_metal"    "Weapon_Homer.Hit"
+            }
         }
         "9040"
         {
@@ -406,8 +413,8 @@
             "first_sale_date"   "2025/07/17"
             "mf2item"   "1"
             "prefab"    "base_hat hat"
-            "item_type_name"    "#TF_Weapon_Wrench"
-            "item_description"  ""
+            "item_type_name"    "#MF2_Homer"
+            "item_description"  "Sorta like a Simpson right?"
             "item_name"     "The Homer"
             "item_quality"  "selfmade"
             "propername"        "1"
@@ -422,15 +429,6 @@
             "used_by_classes"
             {
                 "engineer"   "1"
-            }
-
-            "attributes"
-            {
-                "engy building health bonus"
-                {
-                    "attribute_class"    "mult_engy_building_health"
-                    "value" "1.15"
-                }
             }
         }
 
@@ -986,6 +984,7 @@
 		"min_viewmodel_offset"	"10 -3 -10"
 	    }
         }
+
         "9041"
         {
             "name"              "fast medigun"
