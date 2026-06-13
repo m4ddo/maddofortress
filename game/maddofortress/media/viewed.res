@@ -6,11 +6,11 @@
 	}
 	"pl_upward"
 	{
-		"viewed"		"340"
+		"viewed"		"359"
 	}
 	"itemtest"
 	{
-		"viewed"		"17"
+		"viewed"		"18"
 	}
 	"arena_orange_xyan"
 	{
@@ -51,5 +51,9 @@
 	"mvm_bigrock"
 	{
 		"viewed"		"2"
+	}
+	"pl_venice"
+	{
+		"viewed"		"1"
 	}
 }
