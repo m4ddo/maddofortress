@@ -1,66 +1,66 @@
 <!-- dmx encoding keyvalues2 1 format dmx 1 -->
 "PlayerStats"
 {
-	"id" "elementid" "ffc0c50a-520c-491c-aa09-a0d01627aca3"
+	"id" "elementid" "31452e25-1f09-4675-b37e-9d54d54abd99"
 	"aClassStats" "element_array" 
 	[
 		"ClassStats_t"
 		{
-			"id" "elementid" "ef8367f0-6125-483c-b367-243111693424"
+			"id" "elementid" "1c52a1db-495f-4c06-8352-e5d6ef5e2b7d"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "d80b8c62-a889-4b5d-93ea-e9531022f8fa"
+				"id" "elementid" "ad4851ae-6c8d-47d1-8082-1d640b9a83c2"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "56"
-				"iDamageDealt" "int" "153355"
-				"iDominations" "int" "18"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "367"
-				"iNumberOfKills" "int" "561"
-				"iNumDeaths" "int" "1"
-				"iNumInvulnerable" "int" "1"
-				"iNumShotsFired" "int" "44"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "58319"
-				"iPointCaptures" "int" "139"
-				"iPointDefenses" "int" "97"
-				"iPointsScored" "int" "1268"
-				"iRevenge" "int" "12"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "737a3a00-ef51-4f2e-8922-2760527b08c0"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "1"
-				"iDamageDealt" "int" "15062"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "1"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "1"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "44"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "95"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "a52e1f53-4f55-487f-8d44-49cc82b82102"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
 				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "404"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
 				"iPointDefenses" "int" "0"
-				"iPointsScored" "int" "1750"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -70,58 +70,58 @@
 			"iPlayerClass" "int" "1"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "1bf030ed-55df-4151-97ed-1cee426c30c2"
+				"id" "elementid" "46c40f3c-ea33-47bf-84af-51db261a1ca0"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "3"
-				"iDamageDealt" "int" "1408"
-				"iDominations" "int" "2"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "7"
-				"iNumberOfKills" "int" "10"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "1"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "345"
-				"iPointCaptures" "int" "6"
-				"iPointDefenses" "int" "4"
-				"iPointsScored" "int" "21"
-				"iRevenge" "int" "1"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "f3b6792c-4b19-4ef7-af3c-14fc9647d168"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "1"
-				"iDamageDealt" "int" "15017"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "1"
+				"iKillAssists" "int" "0"
 				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "66"
+				"iPlayTime" "int" "95"
 				"iPointCaptures" "int" "0"
 				"iPointDefenses" "int" "0"
-				"iPointsScored" "int" "1011"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "e1469b30-82c7-4b12-9c5f-e1b163b13d8f"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -129,61 +129,61 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "fc2168c3-611c-4f08-8708-3b5ffff0c5c3"
+			"id" "elementid" "ee703413-7d5b-424b-865c-51b3e87f6974"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "ed5fcb01-0727-4fac-8c6b-16b5086cce04"
+				"id" "elementid" "ab3ea0d5-6ee2-4981-aa84-1d0c0598739d"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "852"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "59"
-				"iDamageDealt" "int" "160590"
-				"iDominations" "int" "8"
+				"iBuildingsDestroyed" "int" "2"
+				"iDamageDealt" "int" "856"
+				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "153"
+				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "164"
-				"iNumberOfKills" "int" "496"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "6"
 				"iNumDeaths" "int" "2"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "46"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "50243"
-				"iPointCaptures" "int" "51"
-				"iPointDefenses" "int" "50"
-				"iPointsScored" "int" "857"
-				"iRevenge" "int" "5"
+				"iPlayTime" "int" "188"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "8"
+				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"accumulatedmvm" "RoundStats_t"
 			{
-				"id" "elementid" "458c9c87-2c85-4c94-90f8-d30286975043"
+				"id" "elementid" "4e4c5457-8581-4d76-a2c4-5d9419ef573b"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "2730"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "2"
+				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "2"
-				"iNumberOfKills" "int" "9"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "550"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "4"
-				"iPointsScored" "int" "25"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -193,58 +193,58 @@
 			"iPlayerClass" "int" "2"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "4198b0cf-d56c-4277-9094-76a9e509242e"
+				"id" "elementid" "cd9787ad-5e9c-45b6-9629-a85a7a18954e"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "3"
-				"iDamageDealt" "int" "23845"
-				"iDominations" "int" "1"
+				"iBuildingsDestroyed" "int" "1"
+				"iDamageDealt" "int" "516"
+				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "8"
+				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "4"
-				"iNumberOfKills" "int" "8"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "5"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "277"
-				"iPointCaptures" "int" "6"
-				"iPointDefenses" "int" "2"
-				"iPointsScored" "int" "42"
-				"iRevenge" "int" "1"
+				"iPlayTime" "int" "91"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "6"
+				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"maxmvm" "RoundStats_t"
 			{
-				"id" "elementid" "c8b21b93-4d64-43af-b057-d5a8c0e73b1b"
+				"id" "elementid" "c2987d57-a570-4ed9-bd03-59902a5816fc"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "1275"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "2"
+				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "2"
-				"iNumberOfKills" "int" "7"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "179"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "4"
-				"iPointsScored" "int" "19"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -252,61 +252,61 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "894d66be-1340-4faf-afea-4186d6f73c02"
+			"id" "elementid" "09eed0f8-dc47-408b-9fcb-aa925148718a"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "bd19a2ec-cf11-4851-b112-0b7ea2933aef"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "246"
-				"iDamageDealt" "int" "507262"
-				"iDominations" "int" "32"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "555"
-				"iNumberOfKills" "int" "1622"
-				"iNumDeaths" "int" "1"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "28"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "110033"
-				"iPointCaptures" "int" "236"
-				"iPointDefenses" "int" "137"
-				"iPointsScored" "int" "2788"
-				"iRevenge" "int" "27"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "dd078ab8-1631-40d9-ac20-694b2c0c3ece"
+				"id" "elementid" "f9f7d42f-e819-475a-bae9-bf8fea32ff97"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "11598"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "2"
-				"iNumberOfKills" "int" "12"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "1"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "28"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "75"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "7b7f4940-f304-44a1-a813-0e2c89ae8d43"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "1234"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "1"
-				"iPointsScored" "int" "456"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -316,231 +316,17 @@
 			"iPlayerClass" "int" "3"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "b26a8097-71b3-4ee1-9f42-eff6e9826748"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "5"
-				"iDamageDealt" "int" "3331"
-				"iDominations" "int" "2"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "9"
-				"iNumberOfKills" "int" "10"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "602"
-				"iPointCaptures" "int" "5"
-				"iPointDefenses" "int" "3"
-				"iPointsScored" "int" "27"
-				"iRevenge" "int" "2"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "6fa2fa9d-e976-49c7-88cd-70499ae7c8e9"
+				"id" "elementid" "018376fc-e2f0-4aa3-9bb2-67580ba5b1db"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "9897"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "2"
-				"iNumberOfKills" "int" "9"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "541"
-				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "1"
-				"iPointsScored" "int" "419"
-				"iRevenge" "int" "0"
-				"iSentryKills" "int" "0"
-			}
-			
-		},
-		"ClassStats_t"
-		{
-			"id" "elementid" "751d98ea-1e89-4321-8076-afa33b3f8da6"
-			"accumulated" "RoundStats_t"
-			{
-				"id" "elementid" "69da36c6-e372-46d5-8369-359e9cc3dc58"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "461"
-				"iDamageDealt" "int" "916289"
-				"iDominations" "int" "37"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "819"
-				"iNumberOfKills" "int" "3088"
-				"iNumDeaths" "int" "1"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "5"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "280741"
-				"iPointCaptures" "int" "589"
-				"iPointDefenses" "int" "355"
-				"iPointsScored" "int" "5606"
-				"iRevenge" "int" "76"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "ce111f18-e487-40e7-b788-674405a3ebca"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "328579"
-				"iDominations" "int" "0"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "69"
-				"iNumberOfKills" "int" "315"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "9284"
-				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "66"
-				"iPointsScored" "int" "4938"
-				"iRevenge" "int" "0"
-				"iSentryKills" "int" "0"
-			}
-			
-			"comment: classname" "string" "Demoman"
-			"iNumberOfRounds" "int" "9"
-			"iPlayerClass" "int" "4"
-			"max" "RoundStats_t"
-			{
-				"id" "elementid" "ae7b7b30-6543-4c9d-a1fb-e01a112ad726"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "10"
-				"iDamageDealt" "int" "3421"
-				"iDominations" "int" "2"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "4"
-				"iNumberOfKills" "int" "19"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "516"
-				"iPointCaptures" "int" "8"
-				"iPointDefenses" "int" "4"
-				"iPointsScored" "int" "24"
-				"iRevenge" "int" "3"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "585d727f-000b-4f99-bfe5-fdcfd1b2c38f"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "182520"
-				"iDominations" "int" "0"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "10"
-				"iNumberOfKills" "int" "33"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "584"
-				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "7"
-				"iPointsScored" "int" "3782"
-				"iRevenge" "int" "0"
-				"iSentryKills" "int" "0"
-			}
-			
-		},
-		"ClassStats_t"
-		{
-			"id" "elementid" "f212ff13-7e16-4716-b329-21b88a93d661"
-			"accumulated" "RoundStats_t"
-			{
-				"id" "elementid" "303303bf-e056-4acd-8bfe-cdb62b03a720"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "794"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "18"
-				"iDamageDealt" "int" "44806"
-				"iDominations" "int" "16"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "780597"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "867"
-				"iNumberOfKills" "int" "168"
-				"iNumDeaths" "int" "4"
-				"iNumInvulnerable" "int" "440"
-				"iNumShotsFired" "int" "35"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "73017"
-				"iPointCaptures" "int" "107"
-				"iPointDefenses" "int" "43"
-				"iPointsScored" "int" "2104"
-				"iRevenge" "int" "20"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "28e2ef79-36f4-434c-8e23-825668d6b947"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "370"
-				"iDominations" "int" "0"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "477"
 				"iHealthPointsLeached" "int" "0"
 				"iKillAssists" "int" "0"
 				"iNumberOfKills" "int" "0"
@@ -549,10 +335,224 @@
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "259"
+				"iPlayTime" "int" "56"
 				"iPointCaptures" "int" "0"
 				"iPointDefenses" "int" "0"
-				"iPointsScored" "int" "1"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "4d9ec534-2e43-4223-83d5-c53d57edd644"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+		},
+		"ClassStats_t"
+		{
+			"id" "elementid" "123148ef-664a-4f2a-a1d9-e55424c6ab9f"
+			"accumulated" "RoundStats_t"
+			{
+				"id" "elementid" "61bf2152-92ee-43a3-8391-43c2e194dcfb"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "1"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "5"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "104"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "c1b06a9b-ea10-4ac2-a7cf-362610bf137e"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"comment: classname" "string" "Demoman"
+			"iNumberOfRounds" "int" "6"
+			"iPlayerClass" "int" "4"
+			"max" "RoundStats_t"
+			{
+				"id" "elementid" "dea596b4-33b8-4f19-9de6-b5114eb469d9"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "87"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "c204dad4-694b-4731-8715-5f63fd56ba75"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+		},
+		"ClassStats_t"
+		{
+			"id" "elementid" "33da9d61-7007-4638-acc6-0daafd5cbc9e"
+			"accumulated" "RoundStats_t"
+			{
+				"id" "elementid" "c643f3e0-7132-4ca8-b49f-9d8e9332274e"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "794"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "1"
+				"iDamageDealt" "int" "851"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "378"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "1"
+				"iNumberOfKills" "int" "3"
+				"iNumDeaths" "int" "4"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "35"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "179"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "4"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "f778c1f9-33f0-49d1-9744-f72b1b3edc09"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -562,46 +562,46 @@
 			"iPlayerClass" "int" "5"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "a7d86f79-fda1-4519-9dd7-024ac8c6e8dd"
+				"id" "elementid" "c631035d-d0ef-4db9-bf44-34e3ee5f4f6e"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "1"
-				"iDamageDealt" "int" "856"
-				"iDominations" "int" "1"
+				"iDamageDealt" "int" "408"
+				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "13378"
+				"iHealthPointsHealed" "int" "220"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "17"
-				"iNumberOfKills" "int" "4"
+				"iKillAssists" "int" "1"
+				"iNumberOfKills" "int" "2"
 				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "8"
+				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "474"
-				"iPointCaptures" "int" "3"
-				"iPointDefenses" "int" "2"
-				"iPointsScored" "int" "32"
-				"iRevenge" "int" "2"
+				"iPlayTime" "int" "94"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "2"
+				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"maxmvm" "RoundStats_t"
 			{
-				"id" "elementid" "43a1c3f9-9ed8-48b8-aedc-c537c1b7f237"
+				"id" "elementid" "ad577d1d-989d-4103-a5b8-a45039eb1e04"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "370"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "137"
+				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
 				"iKillAssists" "int" "0"
 				"iNumberOfKills" "int" "0"
@@ -610,10 +610,10 @@
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "88"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
 				"iPointDefenses" "int" "0"
-				"iPointsScored" "int" "1"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -621,122 +621,122 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "d2757e11-97d7-4f06-9eaa-87b6901d0f69"
+			"id" "elementid" "260b7bc1-a700-4a37-92dd-0c0760f2e5d3"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "4be08ce4-1c44-4ae0-89aa-30723b35200b"
+				"id" "elementid" "6d918644-a7e8-4c06-bd95-fb56fff7b78c"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "43"
-				"iDamageDealt" "int" "140316"
-				"iDominations" "int" "9"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "123"
-				"iNumberOfKills" "int" "415"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "10"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "36633"
-				"iPointCaptures" "int" "54"
-				"iPointDefenses" "int" "30"
-				"iPointsScored" "int" "758"
-				"iRevenge" "int" "17"
+				"iPlayTime" "int" "25"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"accumulatedmvm" "RoundStats_t"
 			{
-				"id" "elementid" "d54d9d60-fa61-4bda-8806-d1c375e5e121"
+				"id" "elementid" "e727d439-c37f-49a8-9eaf-49607ddcf2b9"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "172641"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "64"
-				"iNumberOfKills" "int" "194"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "4856"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "39"
-				"iPointsScored" "int" "1049"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"comment: classname" "string" "Heavy"
-			"iNumberOfRounds" "int" "5"
+			"iNumberOfRounds" "int" "2"
 			"iPlayerClass" "int" "6"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "4a58b83c-6c79-4ac9-88da-7ef3426d4030"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "4"
-				"iDamageDealt" "int" "8184"
-				"iDominations" "int" "1"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "4"
-				"iNumberOfKills" "int" "7"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "540"
-				"iPointCaptures" "int" "5"
-				"iPointDefenses" "int" "3"
-				"iPointsScored" "int" "18"
-				"iRevenge" "int" "1"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "aeabc493-9af5-4ed1-9f46-e33add0cc337"
+				"id" "elementid" "3a5f3d1f-1794-43a7-a221-b5e2c5dbc00b"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "95800"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "16"
-				"iNumberOfKills" "int" "22"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "451"
+				"iPlayTime" "int" "25"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "5"
-				"iPointsScored" "int" "390"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "dfb90538-4f48-48e9-b14f-b644c77fa67b"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -744,61 +744,61 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "fee811d3-72dd-4b7d-a0f7-65466ec083ac"
+			"id" "elementid" "de599ebf-7c40-4415-8746-08a0c9a056e1"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "e056cef2-b93d-4049-862e-3ef1fd833ddb"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "175"
-				"iDamageDealt" "int" "384807"
-				"iDominations" "int" "50"
-				"iFireDamage" "int" "259573"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "582"
-				"iNumberOfKills" "int" "1495"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "108033"
-				"iPointCaptures" "int" "267"
-				"iPointDefenses" "int" "145"
-				"iPointsScored" "int" "3109"
-				"iRevenge" "int" "50"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "1cca08ea-144a-4c71-b043-5856c57028e8"
+				"id" "elementid" "aca623fc-a90e-4029-98f5-1e6b3f6c5257"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "123286"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
-				"iFireDamage" "int" "87641"
+				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "71"
-				"iNumberOfKills" "int" "321"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "4060"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "29"
-				"iPointsScored" "int" "1450"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "2a9a4be5-6f7b-49a9-8b07-6102736ade30"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -808,58 +808,58 @@
 			"iPlayerClass" "int" "7"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "a8c1ff2c-9154-4ae8-9d60-3783b6731e3b"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "5"
-				"iDamageDealt" "int" "2191"
-				"iDominations" "int" "3"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "6"
-				"iNumberOfKills" "int" "8"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "407"
-				"iPointCaptures" "int" "10"
-				"iPointDefenses" "int" "3"
-				"iPointsScored" "int" "34"
-				"iRevenge" "int" "2"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "5f864f72-8fcc-4628-af7f-f6a9825025b1"
+				"id" "elementid" "edbd59aa-d94b-4d53-9bd1-9c7705b49967"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "61672"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "20"
-				"iNumberOfKills" "int" "102"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "653"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "8"
-				"iPointsScored" "int" "430"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "c2b37bab-9c0a-44b7-bb1b-06c79bdeac11"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -867,61 +867,61 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "66c72829-f900-4e61-a568-e73e99a88d40"
+			"id" "elementid" "f1b8f1bc-dfc4-4d0e-a321-5cacb3af39b1"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "6b8c26a6-07ad-491c-aac5-89fa935cba41"
-				"iBackstabs" "int" "532"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "175"
-				"iDamageDealt" "int" "127020"
-				"iDominations" "int" "11"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "2"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "5145"
-				"iKillAssists" "int" "110"
-				"iNumberOfKills" "int" "692"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "63430"
-				"iPointCaptures" "int" "42"
-				"iPointDefenses" "int" "52"
-				"iPointsScored" "int" "1634"
-				"iRevenge" "int" "22"
-				"iSentryKills" "int" "0"
-			}
-			
-			"accumulatedmvm" "RoundStats_t"
-			{
-				"id" "elementid" "deae84d7-0d66-4253-8432-1c4fce48eca2"
-				"iBackstabs" "int" "9"
+				"id" "elementid" "03be02a6-88ef-4c90-b0e5-4162e54000d9"
+				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "8835"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "6"
-				"iNumberOfKills" "int" "15"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "971"
+				"iPlayTime" "int" "17"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "2"
-				"iPointsScored" "int" "150"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"accumulatedmvm" "RoundStats_t"
+			{
+				"id" "elementid" "1c352877-9a70-4bed-b1d2-e1c6d8c8b43a"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -931,58 +931,58 @@
 			"iPlayerClass" "int" "8"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "cd074502-f12f-43aa-91c7-4b16ac7fb600"
-				"iBackstabs" "int" "8"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "0"
-				"iBuildingsDestroyed" "int" "8"
-				"iDamageDealt" "int" "1430"
-				"iDominations" "int" "2"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "1"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "206"
-				"iKillAssists" "int" "3"
-				"iNumberOfKills" "int" "9"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "413"
-				"iPointCaptures" "int" "6"
-				"iPointDefenses" "int" "3"
-				"iPointsScored" "int" "24"
-				"iRevenge" "int" "2"
-				"iSentryKills" "int" "0"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "b4419024-c2fb-427f-bc2a-2703859345fd"
-				"iBackstabs" "int" "2"
+				"id" "elementid" "7bb5cfad-531a-49d9-badc-6e3ed3f01120"
+				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
 				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "4000"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "2"
-				"iNumberOfKills" "int" "5"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
 				"iNumTeleports" "int" "0"
-				"iPlayTime" "int" "209"
+				"iPlayTime" "int" "17"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "1"
-				"iPointsScored" "int" "82"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "7333599d-3f6d-4750-9359-56f86eec307a"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
@@ -990,124 +990,124 @@
 		},
 		"ClassStats_t"
 		{
-			"id" "elementid" "47fad373-5e61-4fee-aabc-6b559b90419a"
+			"id" "elementid" "d483ca1e-95ae-427b-a619-16ec57da7b6c"
 			"accumulated" "RoundStats_t"
 			{
-				"id" "elementid" "3bc7c683-86f1-4e5d-9c78-daf032cdc174"
+				"id" "elementid" "d6111a9d-c4a7-4741-a4da-ed9afc0ec0cc"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "4521"
-				"iBuildingsDestroyed" "int" "63"
-				"iDamageDealt" "int" "374203"
-				"iDominations" "int" "52"
+				"iBuildingsBuilt" "int" "1"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "596"
-				"iNumberOfKills" "int" "1273"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "44"
 				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "1877"
-				"iPlayTime" "int" "179920"
-				"iPointCaptures" "int" "91"
-				"iPointDefenses" "int" "95"
-				"iPointsScored" "int" "2876"
-				"iRevenge" "int" "21"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "42"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"accumulatedmvm" "RoundStats_t"
 			{
-				"id" "elementid" "29156529-d833-44c5-aaaa-f17fc506e853"
+				"id" "elementid" "6ee0682e-8430-4581-a1bb-7f2ca7961599"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "851"
+				"iBuildingsBuilt" "int" "0"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "1614571"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "754"
-				"iNumberOfKills" "int" "1604"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "146"
-				"iPlayTime" "int" "21344"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "316"
-				"iPointsScored" "int" "10779"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
 				"iSentryKills" "int" "0"
 			}
 			
 			"comment: classname" "string" "Engineer"
-			"iNumberOfRounds" "int" "17"
+			"iNumberOfRounds" "int" "16"
 			"iPlayerClass" "int" "9"
 			"max" "RoundStats_t"
 			{
-				"id" "elementid" "18d7a834-2748-428f-b1d3-91cd54245aab"
+				"id" "elementid" "6d466f21-b63b-480c-9bfb-130f535c69b8"
 				"iBackstabs" "int" "0"
 				"iBlastDamage" "int" "0"
 				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "33"
-				"iBuildingsDestroyed" "int" "4"
-				"iDamageDealt" "int" "23733"
-				"iDominations" "int" "6"
-				"iFireDamage" "int" "0"
-				"iHeadshots" "int" "0"
-				"iHealthPointsHealed" "int" "0"
-				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "27"
-				"iNumberOfKills" "int" "30"
-				"iNumDeaths" "int" "0"
-				"iNumInvulnerable" "int" "0"
-				"iNumShotsFired" "int" "0"
-				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "69"
-				"iPlayTime" "int" "897"
-				"iPointCaptures" "int" "8"
-				"iPointDefenses" "int" "3"
-				"iPointsScored" "int" "66"
-				"iRevenge" "int" "2"
-				"iSentryKills" "int" "29"
-			}
-			
-			"maxmvm" "RoundStats_t"
-			{
-				"id" "elementid" "875302c8-520f-4b33-adad-9ac1f9dc8f6f"
-				"iBackstabs" "int" "0"
-				"iBlastDamage" "int" "0"
-				"iBonusPoints" "int" "0"
-				"iBuildingsBuilt" "int" "47"
+				"iBuildingsBuilt" "int" "1"
 				"iBuildingsDestroyed" "int" "0"
-				"iDamageDealt" "int" "730438"
+				"iDamageDealt" "int" "0"
 				"iDominations" "int" "0"
 				"iFireDamage" "int" "0"
 				"iHeadshots" "int" "0"
 				"iHealthPointsHealed" "int" "0"
 				"iHealthPointsLeached" "int" "0"
-				"iKillAssists" "int" "117"
-				"iNumberOfKills" "int" "264"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
 				"iNumDeaths" "int" "0"
 				"iNumInvulnerable" "int" "0"
 				"iNumShotsFired" "int" "0"
 				"iNumShotsHit" "int" "0"
-				"iNumTeleports" "int" "22"
-				"iPlayTime" "int" "1434"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "42"
 				"iPointCaptures" "int" "0"
-				"iPointDefenses" "int" "47"
-				"iPointsScored" "int" "3132"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
 				"iRevenge" "int" "0"
-				"iSentryKills" "int" "194"
+				"iSentryKills" "int" "0"
+			}
+			
+			"maxmvm" "RoundStats_t"
+			{
+				"id" "elementid" "5d23850e-14f9-404d-9376-a2ca60a95815"
+				"iBackstabs" "int" "0"
+				"iBlastDamage" "int" "0"
+				"iBonusPoints" "int" "0"
+				"iBuildingsBuilt" "int" "0"
+				"iBuildingsDestroyed" "int" "0"
+				"iDamageDealt" "int" "0"
+				"iDominations" "int" "0"
+				"iFireDamage" "int" "0"
+				"iHeadshots" "int" "0"
+				"iHealthPointsHealed" "int" "0"
+				"iHealthPointsLeached" "int" "0"
+				"iKillAssists" "int" "0"
+				"iNumberOfKills" "int" "0"
+				"iNumDeaths" "int" "0"
+				"iNumInvulnerable" "int" "0"
+				"iNumShotsFired" "int" "0"
+				"iNumShotsHit" "int" "0"
+				"iNumTeleports" "int" "0"
+				"iPlayTime" "int" "0"
+				"iPointCaptures" "int" "0"
+				"iPointDefenses" "int" "0"
+				"iPointsScored" "int" "0"
+				"iRevenge" "int" "0"
+				"iSentryKills" "int" "0"
 			}
 			
 		}
@@ -1116,10 +1116,21 @@
 	[
 		"MapStats_t"
 		{
-			"id" "elementid" "db288ad9-5c2f-4462-9e6a-4f8749f0e93e"
+			"id" "elementid" "36ab4728-54ae-48a6-b1be-8d0f63b48d69"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "34e8374f-328f-4467-b93a-74e14db791b8"
+				"id" "elementid" "9b2c99f1-d01a-4b54-a992-584a96e78936"
+				"iPlayTime" "int" "231"
+			}
+			
+			"comment: mapname" "string" "pl_upward"
+		},
+		"MapStats_t"
+		{
+			"id" "elementid" "2971c130-4abe-4e99-8f6a-a152c804e8e8"
+			"accumulated" "RoundMapStats_t"
+			{
+				"id" "elementid" "a49d3ecd-7d3b-4ac1-b6f3-e8598b10fb60"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1127,32 +1138,32 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ebb31413-e360-4f67-b46a-8c0a4a735cdb"
+			"id" "elementid" "db7fd378-783a-402b-829d-1b67e9c413ed"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "12f98eb9-7f1b-4c70-a97c-02eaef610f93"
-				"iPlayTime" "int" "4636"
+				"id" "elementid" "40946f3b-3695-4c04-aec5-645a666e03fa"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_gorge"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b7dc87bc-3285-4932-b1f0-3a1bcbffacf3"
+			"id" "elementid" "daa5f717-c6f8-4e11-9da6-0e18f4e8ffad"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b2ae779d-8f3e-4f94-aa66-9c62fc12181c"
-				"iPlayTime" "int" "9720"
+				"id" "elementid" "58119ea1-1e73-47f7-8ae0-585ede340468"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_badlands"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e3c2501b-8149-4992-8d1f-c7bc311dd91f"
+			"id" "elementid" "89e33a7f-e815-4042-af9e-ef67f4641d73"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "67566267-d0e8-4438-b28a-de536a26bfb8"
+				"id" "elementid" "d9190886-e204-4010-ad27-ac62ae55d74b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1160,43 +1171,43 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e438c6d9-45ab-4fdf-a785-c87ce7c9d0f3"
+			"id" "elementid" "a5658f91-5b0b-4533-8007-e14413a9bb98"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4ef6e3ec-e094-43b8-a831-4d70fc69506c"
-				"iPlayTime" "int" "505"
+				"id" "elementid" "e460d274-005e-45bd-a3be-72abc51547a0"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_granary"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "45475306-f67c-43ac-8936-d4f907301683"
+			"id" "elementid" "19ecf9f7-c8e4-46dc-93b8-1afe43296190"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "71706906-b103-4ba4-a42b-fab1b70e4c45"
-				"iPlayTime" "int" "3389"
+				"id" "elementid" "a06b09d2-4c95-4a3b-b88b-63b9ffb1188c"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_foundry"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3995bbe9-527c-4d3c-8f30-b146fa495c27"
+			"id" "elementid" "09ef0ca6-8c0e-4136-af77-7c0a5c1231d6"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "57d015f8-7221-45fb-ba73-087e51b9d94f"
-				"iPlayTime" "int" "1257"
+				"id" "elementid" "f4881d0d-8930-4210-9880-e5383af5aed0"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_gullywash_final1"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "05a456e4-3f3f-4e64-957d-4cab2be08fe9"
+			"id" "elementid" "2f3ea5da-2d72-4b60-9863-daf923222cad"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "146e7584-5b88-4860-836b-4564e2967574"
+				"id" "elementid" "3a046603-3c35-4506-90f9-1c147be6ee15"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1204,65 +1215,65 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6a02109f-3894-49b8-b7a5-99b6ef6eb72a"
+			"id" "elementid" "48da0542-3cb1-4ef4-99fd-63b6deaf46b5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "90b8e268-bf6e-45c5-afa4-ed84b677ab9e"
-				"iPlayTime" "int" "2783"
+				"id" "elementid" "012d3336-e2f1-4b9a-8bc5-ee42f441777b"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_viaduct"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8ee9f84f-65c9-48f5-a5ae-9f5f7ddd3f74"
+			"id" "elementid" "ba29c0de-c794-4b4a-a0e8-ee33b4aa8841"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6c3103b0-bc51-4c65-8b30-cf8717734b1f"
-				"iPlayTime" "int" "5185"
+				"id" "elementid" "61ca3453-d164-4e64-843d-caf9c6d63ed8"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_gravelpit"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "21e5bdbe-4206-4422-b807-b8e496c017dc"
+			"id" "elementid" "1c2411ce-d8f4-4e48-88ee-32eaa6fec6e4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ce1a3d5c-c281-4bd2-bc06-2248b05cbc60"
-				"iPlayTime" "int" "49731"
+				"id" "elementid" "a058da00-5fd2-44d5-a06a-d31e476327a3"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_dustbowl"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "787e05e0-4a0e-4517-9fa2-eaed50353432"
+			"id" "elementid" "514116b2-904f-4e6f-84e2-dbc2620c4f72"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ff319c07-0936-4c7b-b5bf-d8d2c60afeea"
-				"iPlayTime" "int" "3415"
+				"id" "elementid" "b3247ad7-123d-4824-b809-9caa370e5c5b"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_well"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5801d38a-8772-4268-ac75-5e8f59f9dff1"
+			"id" "elementid" "0ea7645c-2f45-4888-b8a6-69718530be62"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "fb0c30ec-caab-469b-99dd-67284a5f1bcc"
-				"iPlayTime" "int" "77393"
+				"id" "elementid" "19c01a8c-acc5-4332-903e-34ad5ce6c8b2"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "ctf_2fort"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3ea20e21-ff14-4ccd-8117-9d39c79eaa76"
+			"id" "elementid" "12331f4d-7d43-46fc-b066-31cda64add5b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "80ebc784-f907-46b0-b34a-91d158e617ce"
+				"id" "elementid" "da649355-f104-496e-aa44-d812273dea7f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1270,98 +1281,98 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "0de02c1d-8e35-49cb-b512-6ee0d8769236"
+			"id" "elementid" "9c5b7bc9-4403-49d1-9dbe-d4d8cd91f18d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "bdb761d6-fe58-4210-bbfe-5aca4935342b"
-				"iPlayTime" "int" "1194"
+				"id" "elementid" "d05e6467-dfc1-4b24-8201-8c0682e01ad4"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "ctf_well"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6382395e-6f90-4638-b253-c7946b4a679a"
+			"id" "elementid" "6b6e54f5-99c7-4201-9152-c0e0e2c431b4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "519bf6ce-937c-4e28-a53f-52a6652e0cf8"
-				"iPlayTime" "int" "15581"
+				"id" "elementid" "fc0d321e-d795-4b5b-887e-a96c41167ada"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_goldrush"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6235dc34-b1c8-420a-8502-c4537e5347a4"
+			"id" "elementid" "58524bdd-42ab-46e0-bd1f-1df901498a77"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "68ba80da-1108-4d73-aca0-d73d00a34c73"
-				"iPlayTime" "int" "3095"
+				"id" "elementid" "31133e2a-5228-4930-a680-aee2ed2d572a"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_fastlane"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f2b3210c-bd5d-4b62-bdf0-0c8a6c4bc78b"
+			"id" "elementid" "350ada35-d90d-4ca6-93a8-36a1d6296946"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "03f63048-dc23-4091-8e57-2b4117465dbd"
-				"iPlayTime" "int" "799"
+				"id" "elementid" "37a3768c-8206-43d0-bba1-299d92a45ea5"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "ctf_turbine"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "acb6e74a-9a58-4686-9554-f3eb0a09bbc9"
+			"id" "elementid" "fbe42b48-0db7-493e-8d6a-7144136b0017"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1e889280-dba2-4938-bf0b-47573a725089"
-				"iPlayTime" "int" "48857"
+				"id" "elementid" "3948fb85-0a58-4648-82ff-795fd55a47ee"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_badwater"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "0c0543f5-be84-4092-9276-f4955c421773"
+			"id" "elementid" "2f2cbdf7-6eed-4e8c-a9f1-2741c2c6b9a3"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "55c851b6-4144-4e4d-b14a-2769e3ce9695"
-				"iPlayTime" "int" "3797"
+				"id" "elementid" "73b19eec-9cd1-48d1-8b6a-a756f0055640"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_steel"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7fa0a1f3-532f-414d-a9d6-ed702a9270ae"
+			"id" "elementid" "17dd0f70-7501-4c75-bd29-2a3ed4218f84"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2ebb7232-55ce-44a4-9f6b-cabcc5ddef9a"
-				"iPlayTime" "int" "9599"
+				"id" "elementid" "f7d085d4-1935-47f5-a96a-a98285d8c4f3"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_egypt_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "2a714fcd-0a5e-4d8b-82b3-9ae8901686df"
+			"id" "elementid" "d5f72f21-cae1-459d-926c-b397e4943d8f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5ce6a2b1-0fb8-4bcc-bc1e-19331663c228"
-				"iPlayTime" "int" "3256"
+				"id" "elementid" "3b3217a0-92d3-4152-8b50-2e4c880d414b"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_junction_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "083ab351-9333-4a59-b219-9625025a50ad"
+			"id" "elementid" "d707b05d-fe51-449c-9f89-73406580733c"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "fe1727e8-6764-4673-9598-84819c60d080"
+				"id" "elementid" "29953eaf-4b68-46b5-929d-bae8e9dcd3aa"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1369,153 +1380,142 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e41def97-fac2-4181-b3e1-22ed7d264a95"
+			"id" "elementid" "722ba4fa-6121-4d14-ba21-887e45318aed"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5ac38ef2-1b4f-463d-9218-4fc20bf61455"
-				"iPlayTime" "int" "11877"
+				"id" "elementid" "b719a89f-51a3-40d2-86a1-d7cd1d07c006"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_hoodoo_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3585ead5-c696-4bca-be24-3af8d1ef923c"
+			"id" "elementid" "bc03fd7e-8e7b-4ebf-b201-58e8e598d390"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "22bad54c-8a9c-4709-bf6d-29d59015d5d3"
-				"iPlayTime" "int" "2765"
+				"id" "elementid" "8bb25c04-c8d5-404f-aeb9-6fe798bc81a7"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_sawmill"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "054f9699-d7b6-49f9-8fac-ff0c9fc48ab8"
+			"id" "elementid" "80b92c15-c9a8-4ce3-83fd-293950287f7f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "035a7a6c-8d4d-40d7-b66f-1663e30f1d21"
-				"iPlayTime" "int" "1686"
+				"id" "elementid" "21a61bfe-2247-4b5a-a2ad-ae9e4cd2fc47"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_nucleus"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "62a4d9d8-2aae-4810-a707-86490b4489b6"
+			"id" "elementid" "09526ff2-0683-40db-89d5-4b890b302508"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "55ea7c14-bde6-49c6-a675-217d055a3568"
-				"iPlayTime" "int" "2475"
+				"id" "elementid" "f3e26a33-9468-4fa2-b30e-60584237f233"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "ctf_sawmill"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f7a3765a-01cc-442a-a278-cb13c7cacb26"
+			"id" "elementid" "22884bf7-db44-45cd-b4e7-40828b3f0546"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "40382f72-690a-4209-a14f-ee38685d4a63"
-				"iPlayTime" "int" "1479"
+				"id" "elementid" "3c5ef358-0d47-44d0-a919-833230bc2e69"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_yukon_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "942a61f4-1f3e-4f09-89b0-c1fd154e78a3"
+			"id" "elementid" "e5d1491c-315f-4124-a36d-4c149443b1b7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "df469032-aaaa-4b4e-a720-2ffefb3c44c6"
-				"iPlayTime" "int" "17905"
+				"id" "elementid" "fc78efe2-971c-4a4c-b5f2-1c8d125b4d27"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_harvest_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c9a6dba6-a6e4-4fa0-b26a-cb82d3c7982c"
+			"id" "elementid" "57bdc70f-aae5-43ea-a5e2-755e6b09be87"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "96ca09e1-3ff9-4699-aed5-06cfa7a37886"
-				"iPlayTime" "int" "62"
+				"id" "elementid" "99c70631-cf40-4bad-b96a-dd8018bc878a"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "ctf_doublecross"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f78cff47-506b-4e5d-a5dc-00aa0b795318"
+			"id" "elementid" "986cc816-f07c-4168-a11d-fbb468f3b712"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a6b4da24-bac3-4816-94fc-136eb101ada2"
-				"iPlayTime" "int" "7242"
+				"id" "elementid" "517c10f0-1e38-4c77-b96d-699d1dd48ee0"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_freight_final1"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ef770136-5da5-460f-90a4-751aafa8dcd6"
+			"id" "elementid" "b8c6df8f-d7b6-4b56-9300-0ec4afcd424f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "61a6a7d8-b92e-4d82-ab50-f584b848c0b7"
-				"iPlayTime" "int" "56187"
-			}
-			
-			"comment: mapname" "string" "pl_upward"
-		},
-		"MapStats_t"
-		{
-			"id" "elementid" "0b6454e1-56ff-4a97-9632-dd57b6225f8d"
-			"accumulated" "RoundMapStats_t"
-			{
-				"id" "elementid" "cecc2c91-b6b6-45d1-8be3-8701fffcd063"
-				"iPlayTime" "int" "2425"
+				"id" "elementid" "79475c7e-6913-4ba7-b0b4-feb1a366e566"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "plr_hightower"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "159d079c-b4c8-4a50-9126-1415306709ec"
+			"id" "elementid" "b55a5fca-eb7f-408b-969f-970e30fc59eb"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e6657147-a3d3-44ee-a1e5-9df47dea5344"
-				"iPlayTime" "int" "27377"
+				"id" "elementid" "275a4055-b272-47c7-9c7b-364c237749c0"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_thundermountain"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "60cd570a-5de4-41b0-934d-c3a7b92c2cd7"
+			"id" "elementid" "7010021b-f7c0-43d5-930c-70e6d94c8ebd"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "365c3c30-fa95-498c-a8d7-49e0bb4e1c6b"
-				"iPlayTime" "int" "1671"
+				"id" "elementid" "7667abaf-3691-4092-b6a6-8ce1659b2cb2"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_coldfront"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7844328d-f394-44dc-b5d3-34990d084ac5"
+			"id" "elementid" "8a04ff33-01f5-4190-9185-e4d8a6a54af7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "03601127-83b9-46a1-8ebe-24f41aef445e"
-				"iPlayTime" "int" "7180"
+				"id" "elementid" "df702bd3-9640-4821-9503-642adcf43c9b"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_mountainlab"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8d8ae295-5a82-41cc-a5eb-8b50a3469dd6"
+			"id" "elementid" "ea25ae47-fb52-4434-9833-578a1fcb4aa0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7021790b-766f-4119-99d6-3438441f5fed"
+				"id" "elementid" "c6b7bcb8-bbc5-4156-a0e4-8908c71e6260"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1523,32 +1523,32 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f9b4a5df-f775-4ae2-9f0e-864d4c499340"
+			"id" "elementid" "48f96a9c-72f3-4d11-bd0d-3468c46bc5f8"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4475611f-75fb-4498-beae-0b0c03073f79"
-				"iPlayTime" "int" "10513"
+				"id" "elementid" "6d98402a-5fce-4bd7-a918-999cfdeba8b4"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_5gorge"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "db771127-6924-402b-a5ae-95a0af135ff0"
+			"id" "elementid" "32391427-bac0-4e9b-be33-799a91bd6608"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2554ef78-19ce-4d80-8e79-fe2589187479"
-				"iPlayTime" "int" "30860"
+				"id" "elementid" "f65d4448-53fb-4797-928d-40c870a8a096"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_frontier_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a2735894-5805-4eba-93bc-98927b275284"
+			"id" "elementid" "3e43fba8-b664-4b44-abd9-9d3523f1f746"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d55b60e0-ac8b-452d-ada2-3d43c293a6c4"
+				"id" "elementid" "a55a5332-d77d-4ac1-bfe2-b4cb6eaba104"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1556,43 +1556,43 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7a079a4a-069e-4dac-88d0-9b55ce5175ef"
+			"id" "elementid" "81648113-2d81-4541-a6bd-0505c051d1df"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "22db729a-9c1b-46ce-98a7-1606853fb073"
-				"iPlayTime" "int" "3674"
+				"id" "elementid" "05d99816-3f72-4d8e-a113-1239f3719f66"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_lakeside_final"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c9cf4e4b-5f02-4a3d-b9e2-2e8156800730"
+			"id" "elementid" "0d107b92-2643-4ab5-a351-7e9760ce9efa"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e5540f53-0df9-449e-85d9-15263d268539"
-				"iPlayTime" "int" "5571"
+				"id" "elementid" "5c515454-0403-420b-b36f-a2adbba0b0fd"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_badlands"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "565b61cf-a0c7-4b6e-814e-c87f1b9a0b99"
+			"id" "elementid" "88598234-9526-4913-97ec-fd1995187de8"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e8302d06-bbea-4bc0-b955-cbed5bcaf7f6"
-				"iPlayTime" "int" "22490"
+				"id" "elementid" "26992325-08fc-4361-92b3-675cddbffc5e"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "pl_barnblitz"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fb518bca-ad1f-4542-813e-f8d9fd65d501"
+			"id" "elementid" "b38e6e7f-87f8-4119-b5bc-3e80c166ff28"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8fd40d2d-b070-4aa8-8e63-caacaf52cb0b"
+				"id" "elementid" "b31ce628-abee-47c3-ac41-d72abf295a97"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1600,21 +1600,21 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5e711572-6e0f-47f3-bfef-00c952ba0573"
+			"id" "elementid" "3f3072da-1ca5-401d-b298-5bc94c29a1b0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6b9de484-2a7c-492b-92bf-2051058eef5f"
-				"iPlayTime" "int" "5603"
+				"id" "elementid" "265dc933-91fe-443b-9935-46f3cd1340f9"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_king"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "cacef441-a8f0-44d5-87a6-e3ef50aad3d6"
+			"id" "elementid" "599443b3-a6ad-499f-bc3a-977902008121"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e2e74bf5-e1dc-490f-a3b8-042bc5948a0d"
+				"id" "elementid" "e91734a4-0a17-4390-8438-c11411b3d277"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1622,10 +1622,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "0d74848a-f1de-466d-9062-e6ab6ba36710"
+			"id" "elementid" "cadaa77e-0b83-4865-b4d3-b5c737b786d4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "42030396-5c76-41a8-8ba6-8a35a85fb4f3"
+				"id" "elementid" "cdd8b79d-88f3-40d0-ba3e-f9740b71af38"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1633,10 +1633,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b357ba27-0f03-41a6-b51f-3ef57fcfc438"
+			"id" "elementid" "a02c49ce-41f0-46d0-9b58-71971db08b7b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9cc15fe6-4347-480d-b4dd-923f190db279"
+				"id" "elementid" "b4f57ce2-8838-4f05-b197-d592b846be40"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1644,10 +1644,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e5334060-9f8e-47ed-bf91-0e58430faca4"
+			"id" "elementid" "4fc1382b-1001-48de-ba6f-fc128f59ae5a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7c1d318d-18b2-46d1-a1e0-bd2d1dbbcb67"
+				"id" "elementid" "9a49a38a-a220-4b7f-af1c-555d1ebfc906"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1655,10 +1655,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "de664200-e5b2-4182-b0be-fefd6081205c"
+			"id" "elementid" "77a240e7-2f49-40a4-ba1b-98f6947942ad"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7607d9e9-4024-4bfd-b97d-b30fd785a891"
+				"id" "elementid" "92082ef4-3788-4627-b904-8bd6919d2d0f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1666,10 +1666,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "54dd5012-88b0-4199-ad9a-e3a5492a6ade"
+			"id" "elementid" "d65a7958-4981-4f13-ba38-c846a91d6c77"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "51a0f2fa-4a40-4814-9d90-1c157c7782bb"
+				"id" "elementid" "ffe688d1-eb3f-4607-9591-73e30ba0abb9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1677,10 +1677,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6f79cc6f-47b6-4a2d-828f-73fd88197002"
+			"id" "elementid" "a734241d-3230-41ad-b2c9-370b2702be63"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "83707f6d-9f97-4298-8690-3ee34dfa2abc"
+				"id" "elementid" "9d34adb4-c8e2-48c5-9835-7c31f4258a94"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1688,10 +1688,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8ccaa750-5967-4ab7-a88f-688adbed2a8e"
+			"id" "elementid" "ab774713-308f-40af-bccc-1bbd353ae4ca"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "669d184c-9186-4ae7-811e-0d6e9cf4bfba"
+				"id" "elementid" "e1e697e7-a800-4d40-9f4d-c01d27fb8a3c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1699,10 +1699,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e0228aa1-7a46-4b17-a198-7003b8bcb64a"
+			"id" "elementid" "e9fe6368-dcf8-4228-8f55-922372273a0a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "98680bc9-aebb-43a5-82c1-6e9653091129"
+				"id" "elementid" "89b88ad1-dcdd-4f3c-a430-9d3dc05e8ba8"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1710,10 +1710,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "087c53e1-98bf-4eb1-a130-8ce924d94a07"
+			"id" "elementid" "dc335819-597d-4774-8458-342cd0b9baec"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "abb6c4c7-c215-46cd-bd64-1ab5aed883fb"
+				"id" "elementid" "cc0f5879-c105-42e2-8cb6-dab65e942334"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1721,10 +1721,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "67391f19-1153-452a-9907-33f8fb70367c"
+			"id" "elementid" "aef55a35-e5f9-4d41-8fe8-42c960b1ff57"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2a130ccb-ad01-475e-9b50-868c7fa45307"
+				"id" "elementid" "1a7293aa-68d1-49b1-9ad5-5e3a6e78d048"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1732,10 +1732,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f7916082-3c7f-413b-bdcd-4eb3e381e1f0"
+			"id" "elementid" "98276bf1-c534-4f00-b74d-413f81ea0636"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "654cef95-a5e3-42d9-914b-f967f6953501"
+				"id" "elementid" "4489c09d-b68b-4baa-9c40-c48f8159498b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1743,10 +1743,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "944d7b3e-2843-4df6-868b-749696252fa6"
+			"id" "elementid" "7a44c3d2-31d9-41a6-aca2-66d6cf596606"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "23b8319a-8147-4c67-a3d9-3d90095ee605"
+				"id" "elementid" "995698ab-bb39-4945-a0b6-fb4c5e8d6895"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1754,10 +1754,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "915a0e72-f738-48a7-81bc-c02aac163970"
+			"id" "elementid" "82bdeeeb-195d-42a9-a323-defb7d2a78b0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0e6e2b5c-0b9d-4708-99bc-c24677e73d7c"
+				"id" "elementid" "5a5a1630-29e9-4312-bead-e93f5b0370f0"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1765,10 +1765,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "08fde753-c402-494e-9c4f-8f8f7d84bd11"
+			"id" "elementid" "48852fcb-8946-4f37-89a7-c54100d736fc"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a65c8eb9-64c0-4cbe-8194-40098d5648e8"
+				"id" "elementid" "931938fd-35bb-4df2-aeb7-e35acffcf186"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1776,10 +1776,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "448aa08b-4815-49da-accf-807f9411d787"
+			"id" "elementid" "244710a7-a90d-426a-8d3b-75bae69b9b60"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d93cb77f-353b-410c-ae07-59be1b0cfac3"
+				"id" "elementid" "fa256923-a3f4-4e05-85d5-c06bccea688b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1787,10 +1787,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f5ea845f-461c-4dd8-8aed-eb1159d322bf"
+			"id" "elementid" "fd82dc25-6302-429c-bf03-a61eadb3a4fb"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a92a252f-52a9-4c60-bb4a-205a0925c43a"
+				"id" "elementid" "4c1f2d27-bc53-473a-b322-f2f2ba7c5e69"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1798,10 +1798,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "27bf97e7-4609-4e9d-a9ec-4f3138f1b1a9"
+			"id" "elementid" "618731d5-b399-47bc-b990-c3e865bf5da4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7dc94494-fe6a-4ca0-ad30-98fb2b94eac3"
+				"id" "elementid" "248e9ba5-ce84-42a0-881b-88dbd460aa79"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1809,10 +1809,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "2604ff18-d102-4251-9529-f5411a9ba050"
+			"id" "elementid" "c7536c1c-50b3-437d-a3ca-23aafc57e575"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b19a9438-1023-45c4-adf2-e9b7d32f12d4"
+				"id" "elementid" "fe7c2cc9-595c-4c4f-86d3-9a0990759ef4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1820,10 +1820,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6b78a0b2-de28-4652-99a5-c651f116f0ec"
+			"id" "elementid" "d9562850-c7f2-4d2f-8271-f6bdbccab193"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4c7b5d4c-3930-420f-837e-56bedbe87b0c"
+				"id" "elementid" "a6ae3441-7eff-4bfc-ab97-cb84ffc55e3d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1831,10 +1831,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "caa6aefd-36d4-4fdc-9a3b-8400c2a734f3"
+			"id" "elementid" "c8c206ee-0a3b-4fa7-8259-84d6fa063e39"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "93039211-d139-4869-8072-a318a058f5dd"
+				"id" "elementid" "c618595a-96c6-42cc-8af2-a70642569f3c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1842,10 +1842,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "271c70ac-d530-4477-8791-ab32a63a2db8"
+			"id" "elementid" "e06b1299-b2a4-4aee-b532-299670cfdb20"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6ede58bd-2558-4d8e-a1bc-37331d92500a"
+				"id" "elementid" "e5207df1-ec7b-4333-8962-e720c436b7d3"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1853,10 +1853,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6492bbd9-403c-4a0b-8d17-830e0271b60d"
+			"id" "elementid" "8e482317-cf64-48ca-8c63-0d094c081b89"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "51bf0cbe-5cda-4f48-9d6b-83daa6a9a1a1"
+				"id" "elementid" "cfb304b3-f578-4280-a634-44409b2bbeff"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1864,10 +1864,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7f51237f-7222-4b51-a05e-1dafb962bcf0"
+			"id" "elementid" "7f6d522b-fcd3-44db-a36c-959b00d1418d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d7750d9a-fa20-4a62-9e61-dd2c7ee90314"
+				"id" "elementid" "a473a9e6-b848-43ff-b7e0-9d668a1da828"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1875,10 +1875,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7bfa0994-fb3c-4d61-bfd1-1b4429bff7e0"
+			"id" "elementid" "a71e9bc6-28cc-45e9-b92b-f288c54f0288"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "bceb4cd9-0f81-4b5d-a0ad-39466779b640"
+				"id" "elementid" "4a8424c8-8d70-4af2-a6b2-349a6d5e9c5c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1886,10 +1886,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c2441a98-fe3b-468d-8fef-9acd2869b34f"
+			"id" "elementid" "72ab8deb-a78e-43ad-8c07-83c636399eb8"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "46a744ce-476b-4028-8c60-92bb262e5394"
+				"id" "elementid" "e5db7bdb-660c-4098-8013-67e791bd343e"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1897,10 +1897,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "365bba4f-508f-458c-9a0c-271dec0322fa"
+			"id" "elementid" "9162aaec-64c5-4c6b-afbc-7c0e39fc4ced"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "12e5e49d-0ca9-4547-b218-e7edca0a5721"
+				"id" "elementid" "3de9f51c-b8cc-41e2-be0c-035538ef8c08"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1908,10 +1908,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "9babbce8-c333-4c8f-b5e9-7e991100aa3e"
+			"id" "elementid" "88ac96ef-46f1-496b-a5e4-afd949e3af2f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3d6a9f8e-0110-4664-b699-7beb98d44e3b"
+				"id" "elementid" "42f28189-47e2-4a77-b70d-3175894e0782"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1919,10 +1919,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "45904c96-7a97-4ab4-a948-2707e53fdd7d"
+			"id" "elementid" "59859ed0-f28c-48ec-b5aa-94e2472445a5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "af0f0f76-dde4-45b8-8e5f-f828a8250be0"
+				"id" "elementid" "33180d65-3bc9-4eff-9179-3d8a6fc69f50"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1930,10 +1930,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b478ff20-0b52-41ab-964b-134baf02a043"
+			"id" "elementid" "5727fc78-ddf3-42f5-bddc-1a170fea3b3a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9a5e03d9-c9ba-4f6f-bc8e-f71eacfa448b"
+				"id" "elementid" "d3b65496-101c-49b7-bed2-f33c1f66b5bd"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1941,10 +1941,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f5b6ea07-c347-4e03-8e88-86e7b33d783f"
+			"id" "elementid" "6f7f180a-7573-4cba-a6e0-6405fa75a1e9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "dafd799d-a241-4d92-9187-b67f890f5788"
+				"id" "elementid" "5b62d993-0b73-4902-9f08-083d6847e228"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1952,10 +1952,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "dd30c6dd-a62a-4c19-8fe8-6159caa13c1a"
+			"id" "elementid" "27366d6a-d790-45b7-a88d-b3f78955e14a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3a39d127-c83b-467a-8f60-9dd2562e5f24"
+				"id" "elementid" "cc9ccac3-1eda-4d98-ab93-84a6982476c6"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1963,10 +1963,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "122c0ee8-43d3-47bb-bb94-c3d3ecb06621"
+			"id" "elementid" "5581cc72-1869-4802-8ef4-378df0910cf0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a906858a-33c9-49d2-94c1-3e9beddec24e"
+				"id" "elementid" "ed789bb2-08b6-4eaa-b378-f2cca0e56ab7"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -1974,54 +1974,54 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fc9cd491-1d21-47fd-8daf-387da266f32f"
+			"id" "elementid" "050317d1-b54e-4e5f-8aee-4b7f0ef25865"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6566e667-8e5b-4db5-a311-1b1e32d67969"
-				"iPlayTime" "int" "1393"
+				"id" "elementid" "10454000-067e-43b2-b3bb-ebb226f08b90"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_viaduct_event"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "246bcfc2-dd1d-4d38-bb81-b6b1b8997f65"
+			"id" "elementid" "9e40e70b-1793-481d-a412-711d934cc0d5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d87d9044-79d6-4865-a93f-9befa67bdedc"
-				"iPlayTime" "int" "5250"
+				"id" "elementid" "fd448998-770b-43a0-ae46-e7ddf64bb2a9"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "cp_manor_event"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5a8cf836-d8e4-477f-bc9e-e354995e8f83"
+			"id" "elementid" "ee0d7abb-c1d0-48b3-9f42-d26444836a49"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4ec2fcbf-693e-422f-8a99-ce215a992cf3"
-				"iPlayTime" "int" "1329"
+				"id" "elementid" "99ba538c-19ab-4adc-97ca-fc1454a539cd"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_harvest_event"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c71e8cbb-6097-4f62-b70e-ec65c9e3e467"
+			"id" "elementid" "d27ef34f-eefd-404c-a1e6-46ad2342e00c"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "387a8d52-7f0e-4bdd-abae-53aae6f834e7"
-				"iPlayTime" "int" "2581"
+				"id" "elementid" "fd5420f4-210d-4ff3-bc5b-d612efe28f95"
+				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "koth_lakeside_event"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "710446c4-176c-4cce-8ce7-4fe4dd19d19b"
+			"id" "elementid" "a2c5003f-1887-4dac-ae5c-bd46c583547f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "646900b1-1878-493d-9fd4-58e634ee5df8"
+				"id" "elementid" "8ebd526b-30f7-43ae-9483-68c78e5998f8"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2029,10 +2029,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d736533e-9ace-4d8e-b1a9-a4e567ae4b54"
+			"id" "elementid" "c2aecbab-7877-457b-bf72-8fa4dfd51269"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "de2a1f3b-a219-4b30-b3d6-db71cb957305"
+				"id" "elementid" "67b15319-1494-4604-b1b9-cb29a6294eb0"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2040,10 +2040,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f155af29-3c32-41b8-a101-0a87e573fb0d"
+			"id" "elementid" "ff04df18-530a-4945-b7ba-08a3bd557cc4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d8d67d4f-e5ff-4304-b75a-cb4b46009263"
+				"id" "elementid" "8f6de91f-b268-4fdf-b492-8bac5894ca73"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2051,10 +2051,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f4880983-41d0-48fa-a555-5dfe1b7d5ad2"
+			"id" "elementid" "5fb6cb7e-07fd-4e34-a0ea-af4ba2b2cf2f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "17f2a629-2ad0-449a-8396-571c602e135c"
+				"id" "elementid" "a8f87234-69a8-4623-a238-7be9288d54c5"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2062,10 +2062,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8043c5e8-17e8-4119-ae50-4b4663af2ac8"
+			"id" "elementid" "0cda3f0f-e641-42a7-9268-e6d8782095ef"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ef6e29f5-d051-43e8-af58-52553d9c0bdb"
+				"id" "elementid" "ddc0933b-7e55-48d1-8d8b-0d6e98cd7793"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2073,10 +2073,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b53797b2-c885-448b-9177-8ae73a2518d8"
+			"id" "elementid" "bdef9c91-bbfc-4514-bf0e-3b7bf9d681fd"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e9efb957-0c0b-4fef-af41-df2e45bf36df"
+				"id" "elementid" "67553658-047c-4109-ae51-0fac89bdd48d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2084,10 +2084,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d9e0d5f2-e3b9-4a96-acaf-0f62be726ee5"
+			"id" "elementid" "867d0c87-c700-424d-bef5-30b972204ee6"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8812e976-07ce-4e63-8d7d-a9a9f9f04c36"
+				"id" "elementid" "e1fb21fa-273e-4522-9c16-d3357ac1bef7"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2095,10 +2095,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7f6d5738-bc23-455e-8f4e-8f52f1e2c2cf"
+			"id" "elementid" "cebe37f4-ce04-46fe-a92c-e28cf266c08d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e40c511d-c333-43ab-a6db-aeb4aaee1114"
+				"id" "elementid" "641327a4-9a06-441d-864d-300c37fe497d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2106,10 +2106,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "335b5c33-b42e-475b-89f3-70a22a4939d7"
+			"id" "elementid" "433491a1-2b59-4d6b-a6b0-0eb85e8f3a06"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "96ce5795-dead-44af-b43e-f7ad92b6a320"
+				"id" "elementid" "96c5857b-71ea-4dd1-bbfe-cc2382e2e5c4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2117,10 +2117,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7e54f2a5-6c61-422b-9de3-8b10a26758f9"
+			"id" "elementid" "091958f5-e35e-47e0-b088-d5671412f6a3"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "751f4323-713d-46bf-8580-8cf3ca452d40"
+				"id" "elementid" "700c747f-6036-4966-9474-a6aae5e9effd"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2128,10 +2128,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "db78c4e9-4da4-43ef-8324-5ed301588b53"
+			"id" "elementid" "19acec6a-9714-4bae-bf64-803322394e9e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3022558a-5901-4588-a10e-96a7f7f52634"
+				"id" "elementid" "6823fe3d-e316-4930-a336-56d8489f730b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2139,10 +2139,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ea577fb9-3e13-4345-a049-1691b62570be"
+			"id" "elementid" "6ea64a9a-042c-4e82-b958-a1da96ac3b61"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5bad5bbf-cc4f-4073-8b10-fb9f83ac92a0"
+				"id" "elementid" "a3dfc07b-c270-49fe-a0ee-b452e3199983"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2150,10 +2150,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "4b2f8646-be71-4d75-bbd8-1eb6504c8f07"
+			"id" "elementid" "167ee83e-a263-4659-9335-27671cb14466"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "790b966c-90a8-4928-afe2-728bb3f0f625"
+				"id" "elementid" "aa852006-c6d6-48fe-b8c2-539dfed1cf73"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2161,10 +2161,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c9d55736-e194-4d57-96f3-8afa5f29e5d2"
+			"id" "elementid" "1afd41f9-c301-4cfe-a306-236b5b398a8c"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5d32c4ea-92d8-4069-bc1c-1c5775a7ad08"
+				"id" "elementid" "0c90abee-3b96-475a-a357-1c102ad8eeed"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2172,10 +2172,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6ed9671c-e4bb-421b-9ae9-2e9bec7b01f2"
+			"id" "elementid" "37c2a265-26af-4dec-92d0-403fc82d9342"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0908d0e6-6067-48a0-99ae-8f54b365d5f7"
+				"id" "elementid" "42688718-abdb-43ed-8b51-acb3a339f899"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2183,10 +2183,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d8fbb73c-1b1d-4634-bd65-6a4f89e1b8fc"
+			"id" "elementid" "f19bcbc5-796b-47d0-b2a6-3464417d4d98"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a88632d7-6491-40e8-beed-00f39188104e"
+				"id" "elementid" "a99c4e80-982a-408a-b32e-24f4e02cfe40"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2194,10 +2194,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c3389551-8e71-4a8d-b697-c725330e56fc"
+			"id" "elementid" "b69e7d1d-8174-42fc-b48f-4fa25227886b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "77fdb9d6-ca69-41cb-bf85-e8f66a1745d9"
+				"id" "elementid" "e3cff932-387a-4403-b5ca-7f95c6d44463"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2205,10 +2205,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ac689025-c47d-453f-8887-46a5f3ae6701"
+			"id" "elementid" "65711b81-22d3-40ee-9e0b-50763a6b9741"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "799fdfb1-869b-4c64-afd0-69a1cab2c8cb"
+				"id" "elementid" "23ed5589-b5fd-432b-a3be-1a9424b30c7c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2216,10 +2216,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8ac91942-e365-47bb-9674-651a8fb9323b"
+			"id" "elementid" "f9bbce8a-eb20-42eb-ab13-494f2d8ea5c8"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0b531f2b-5593-41a2-9186-9d9b2a31ffd3"
+				"id" "elementid" "90b8dc51-808b-42e5-a8b9-031dd5556605"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2227,10 +2227,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "372991af-e1bb-4657-8f1e-33ef64b9f51b"
+			"id" "elementid" "1c0e5d52-ed2c-4634-8865-aa85a4f2f310"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e443992e-8168-46a6-b131-decc5db091f0"
+				"id" "elementid" "01d288fa-5add-41df-9cd3-2adcd84606d1"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2238,10 +2238,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "cb0c78eb-b752-40f4-adcc-08c1f84d426a"
+			"id" "elementid" "dc0aaf59-0571-4b73-b6cd-49dc7fa32594"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "07222580-8630-44f0-844a-c0fd229d7968"
+				"id" "elementid" "920d99ff-1cee-4dc3-92c6-c0cb467ff25b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2249,10 +2249,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c542af0e-7c46-493f-85ad-9b20e4f4f61f"
+			"id" "elementid" "6254c867-e6d6-4b73-b20f-f798090ef706"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3278dc03-2714-4094-a969-49df47ff8c08"
+				"id" "elementid" "5c4bd760-5972-45d9-85b6-a8fc4b58c01d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2260,10 +2260,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "32338f67-db1f-4a32-b1e6-f54e09cbf665"
+			"id" "elementid" "05583d27-2d70-43a5-b8ce-e01b33e3bace"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "74b29dca-06d6-4f0a-981f-be2a6c14aa0f"
+				"id" "elementid" "fd85009d-1dee-4c9b-abdd-660ca30e806a"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2271,10 +2271,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fa32994c-7b87-47e1-9e5c-95724f7700fb"
+			"id" "elementid" "5ff46b3a-739a-4144-b54c-f9e56f0ba269"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5be17921-f141-451e-92ef-363276720786"
+				"id" "elementid" "1a364ea6-2a25-4e94-942a-86cc864b59cf"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2282,10 +2282,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b2d6b3b8-a826-4d5d-a72d-7e0c1c1492fa"
+			"id" "elementid" "a45b5f63-4be0-496b-af06-611aaf68b262"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "c4ca4e21-c39a-4792-be75-1b22f85777b9"
+				"id" "elementid" "70feb20d-b817-4805-af21-1af899827a61"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2293,10 +2293,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b3b6ebc1-354f-4cad-b941-0e95b5e8c15f"
+			"id" "elementid" "bef3b092-e16e-4091-8f46-b1e879b7afa5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1ecbdcf5-5583-4f38-9c5e-6dde51a83090"
+				"id" "elementid" "717780ee-e223-4b54-bf2d-b4a951c617b2"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2304,10 +2304,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "389db77c-37ce-4efa-964b-43ab89a177de"
+			"id" "elementid" "69518b7e-c1e3-4d42-8718-4c4e228116df"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e22eceb2-9a19-48cd-8dab-caf792950fa7"
+				"id" "elementid" "05e58d1d-5f30-441c-aa42-52e5b0123198"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2315,10 +2315,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fb49af30-b3a3-4583-911a-a70a28b526a8"
+			"id" "elementid" "a7f6628b-dd00-4522-9801-127fc396749a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "173bd672-8215-4c0e-bde3-0c4582fb47a5"
+				"id" "elementid" "878371bb-28c4-40b9-83ec-005eb9025b3c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2326,10 +2326,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6cd2121c-b8d5-42a8-b652-41a1d685f93a"
+			"id" "elementid" "489fd20f-20de-4999-943d-d93650f9fd40"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ed8be358-1454-4664-aea0-55ca48a6be30"
+				"id" "elementid" "1e30c53a-170d-4bfc-b314-784e6410273f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2337,10 +2337,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3e0aecd7-c9eb-4294-903a-81cdf6576b47"
+			"id" "elementid" "1a3cc89e-7f23-4223-9696-7125b4c59471"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "955bc46a-03c6-4997-b20a-46681c3a06fb"
+				"id" "elementid" "2c50a069-9382-4409-aa9e-f2b365a04ca3"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2348,10 +2348,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "81e2c8cd-2645-48b9-83fd-92a396cd3f0d"
+			"id" "elementid" "767b2585-b9d5-4bd4-b295-4ab7e9bfff97"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e7827f3a-bb38-4362-bb3f-76ef0f5961bf"
+				"id" "elementid" "b183c240-123b-44cd-b66c-92573be3b9b2"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2359,10 +2359,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f4a3eea0-371c-4459-b08b-f943747750dc"
+			"id" "elementid" "1bbbc4c4-9f96-41bc-92a4-d53258f3d0e5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "329f462f-cbad-4855-8cb1-1fec7f0ea96b"
+				"id" "elementid" "6fc834c2-9869-46f5-89f1-87fad9e7b531"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2370,10 +2370,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8c80e498-72d0-494d-9eff-f2c737739f57"
+			"id" "elementid" "43322bc1-c0a6-4252-913f-198abf09700a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "c2d07e16-14cb-48a4-b682-a2548d12659a"
+				"id" "elementid" "b8ac2817-7bae-4d29-9982-56e36dfab8d9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2381,10 +2381,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "51dcdfbc-d874-483f-b9fa-780b64ed1a5c"
+			"id" "elementid" "7c5642eb-ca41-4cef-ab37-1f807ed967cd"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9fef16da-b8f2-4537-98dc-1159ec5c19c6"
+				"id" "elementid" "2c2eceaf-3194-4e51-90f2-ba3cebbc1e4c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2392,10 +2392,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c9ac9c6c-1378-457d-8a62-c208791c1937"
+			"id" "elementid" "64e26347-4526-409c-a552-50c15d813e45"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d8e6856d-c257-4992-a1d3-f45be0c10099"
+				"id" "elementid" "cbe59100-5df5-4e8b-8e04-e337085ea117"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2403,10 +2403,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "db6b243f-b2ec-47b7-8e4b-93686f71f16c"
+			"id" "elementid" "deac8676-3d0a-4a34-9ab6-58dd3fd067d7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "de719b25-8c55-4a0c-ab0e-f3ea96d9364f"
+				"id" "elementid" "10e7b9ce-bb78-4dcf-8f16-7132d98116c0"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2414,10 +2414,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "bfe688a1-e622-4c58-ba4c-5f51a2d477fa"
+			"id" "elementid" "45a8508e-1235-4176-82be-dcf5100f838a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1b48010e-9153-49b0-8749-5d7e475e6b7d"
+				"id" "elementid" "68fbd2a6-8e97-458a-af30-9bef7164c0b2"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2425,10 +2425,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c073f45d-2780-4799-adc5-b85fb0d8b632"
+			"id" "elementid" "7060c621-ea8b-4876-9cd4-bf471b69c2f9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "126ef9d3-11a4-459d-9fbd-93e8caba0333"
+				"id" "elementid" "d692c46b-045e-4736-8cc5-43890dd8076d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2436,10 +2436,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8bfe7098-0540-4925-898d-83187a5a07c7"
+			"id" "elementid" "b56206da-2da7-4ba2-8fd1-c1e6a9802f9d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6ffb7f92-c658-491d-9e09-169c2a88364c"
+				"id" "elementid" "21d86947-ef7a-4973-89c3-df927e751c51"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2447,10 +2447,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "2234f923-7a6b-4869-a71b-afae98b5516c"
+			"id" "elementid" "5c923d41-961e-43d4-8e5f-4b472f801833"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "113b0f26-6dd6-4734-934f-1eae23d7f9de"
+				"id" "elementid" "22968673-e6b0-472d-89f8-36b6bb096853"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2458,10 +2458,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c4132f5d-df94-4eda-a845-3f2971723fd5"
+			"id" "elementid" "7417bd39-c26e-4a17-8c22-35a24df97ee5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "712c525a-84d4-428f-8e39-14f1e76ed8b0"
+				"id" "elementid" "263bea76-45f5-49b9-a878-706902ae369b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2469,10 +2469,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "91723a88-24fa-4c82-916c-d80dd8a172ec"
+			"id" "elementid" "74f00592-ee3f-4fd6-b863-412214afee36"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1615cf7a-3513-47b6-b634-4a7f7a10ca2a"
+				"id" "elementid" "d32010c8-dba1-4794-abd8-75769429fdf7"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2480,10 +2480,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "4234452a-4439-4de9-80a9-e6e01dd6d3d2"
+			"id" "elementid" "7fdb2408-bc46-4f18-bb60-04fa216883c9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "aedf61f2-0702-4745-b08c-1d4d2f325017"
+				"id" "elementid" "12fa098e-3be3-4368-a5fa-b5c4d59b058c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2491,10 +2491,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "35b9b687-f9df-4a06-8173-24d8de49867d"
+			"id" "elementid" "485f0344-2678-40eb-8e2b-d4cfa04c96bb"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "f8bdc78d-cd16-4c5d-89ff-ce402afaa3b7"
+				"id" "elementid" "ead81dbc-df2a-4242-8554-52d09c628fe9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2502,10 +2502,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f0e22ec5-7a3a-4765-bb62-2e4735967988"
+			"id" "elementid" "74824572-08c4-4846-a8e2-89ade4fc15eb"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2cf838cf-0267-4d55-874e-3822eb0f2cf2"
+				"id" "elementid" "ebd70ea8-423d-4c4c-aa31-7fdb8be19170"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2513,10 +2513,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a412b0a7-de20-42fd-b7f3-71dcddfb0ae8"
+			"id" "elementid" "95034910-3bf1-4f1a-a40c-b37aa94c1c63"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4c9c15b2-20e3-451c-8316-211ab67019ea"
+				"id" "elementid" "634778b9-9331-4ad7-aafa-771c12634f71"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2524,10 +2524,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e995e578-efac-473c-923d-3c9ac5b12f0b"
+			"id" "elementid" "98f5ec72-054c-4d6e-9f08-cd5992980883"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "79a2c2b5-c2c4-4756-8c86-d23e0ecc9efa"
+				"id" "elementid" "00353784-a07f-4c55-9575-186d850f078f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2535,10 +2535,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6713b4af-07b9-4d64-aff5-25b707cd626d"
+			"id" "elementid" "f7cf7241-12c8-4a27-8e82-7a689f3a6343"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b49daec1-259b-4434-983f-5217ff8c05e9"
+				"id" "elementid" "220ff68d-eaca-47b5-85b8-902a0369b296"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2546,10 +2546,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b68066e2-ed48-4caa-9b12-2daf0fe537b3"
+			"id" "elementid" "f83de590-24fc-496c-984a-8dfdc1764f39"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "008ff76b-a349-4532-aa6d-85e5d0a31d5c"
+				"id" "elementid" "eff21099-98f2-455a-88ee-44c510ca7d0c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2557,10 +2557,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "174d5a43-0a13-4abc-a40e-fa5b99174303"
+			"id" "elementid" "cd6be23a-9cc5-4d80-8fc0-bd71065eba92"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1c7e33bd-98ba-44b4-8389-0888e308d081"
+				"id" "elementid" "4a713f46-2baf-4fa6-9b7e-198d8f1485e0"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2568,10 +2568,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e173d7c4-90db-4596-b891-1f6fd44e9fe4"
+			"id" "elementid" "9c9c38c6-ee55-4518-8cd8-360121689579"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "1d0a3196-afe2-4584-b4f8-f79e6b72250b"
+				"id" "elementid" "ee97cce1-2fec-409b-b3fa-ed8384842d82"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2579,10 +2579,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a5c4e3a0-b53d-410e-8707-784f53fcd817"
+			"id" "elementid" "9a402a82-c707-44f0-b945-c0837b3c33c6"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "43094a8c-df68-4e36-9d74-920977dab7ff"
+				"id" "elementid" "be8659b7-05eb-4291-957d-99c7c765a52f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2590,10 +2590,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "450851ed-80e8-4523-9ff8-75ccb42117e3"
+			"id" "elementid" "0a4f1db0-19ca-4f07-98c7-d5d87774319d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9954e0e5-ed2b-4314-9822-009d0dba29c7"
+				"id" "elementid" "6546defb-c097-4f90-bd45-5d2987c3eb96"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2601,10 +2601,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "aa6d7e6f-795b-4a43-bfca-b644b647f187"
+			"id" "elementid" "f01e4b87-257a-4265-a4ff-3da8ad82b0ad"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2b3a4a0b-0df8-4f7f-9a68-2caf78447d44"
+				"id" "elementid" "82b890b9-e957-4f6d-a1f5-2040005bec21"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2612,10 +2612,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "94a31060-ebaa-43c5-92d4-2ceb8b6895fb"
+			"id" "elementid" "8a0826bd-1ba9-49fc-98f1-9610b4347189"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9ca79502-3445-4fa7-96e9-b5b7d1b08a6f"
+				"id" "elementid" "288fc29b-6d39-4ece-ae08-b9ba0d6fed17"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2623,10 +2623,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c94e59f6-543c-4012-8503-82f003d98b1d"
+			"id" "elementid" "dc2ea9fd-38d2-4e43-b241-f7e27b5d52b6"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3e1af0e5-4488-4ef7-b757-6fd104171ac0"
+				"id" "elementid" "bff75c8c-3b1d-4860-b594-5e154cc76233"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2634,10 +2634,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f7de85fa-ab1a-4b5d-8f36-bd019c31d5b8"
+			"id" "elementid" "768d025f-e50b-4fdd-a752-0ecf7bd9d838"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4e939790-9770-4b60-81a6-a396e3649887"
+				"id" "elementid" "fa55c9f4-04ed-45bc-a7b2-54e50c762e04"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2645,10 +2645,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a271ffdf-6a70-4d90-8809-7232df3e28ad"
+			"id" "elementid" "14e2879b-6e54-4287-ad13-d01524562804"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "18c6c48c-2029-4254-973a-cdf52ee66e06"
+				"id" "elementid" "3af5942a-be33-49b8-8bf4-fdad84b145bf"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2656,10 +2656,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "697f640a-8bbf-4306-9196-b89605770424"
+			"id" "elementid" "b0c6d8ed-4b77-4b5c-846c-e0006952e10a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0f14326b-9cb3-4b73-ab64-31dfac035dbc"
+				"id" "elementid" "20d4db22-ffab-4d00-9b48-46bf5adeb356"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2667,10 +2667,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a950ed0b-e2cb-48a2-888b-0e92ae127195"
+			"id" "elementid" "04ea4cef-e71b-42e2-a005-f514f671484e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4c5289c9-737c-47d6-a262-6d18c9541d06"
+				"id" "elementid" "3f6c4bb2-7674-4f8b-9549-b0b99d71228e"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2678,10 +2678,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "bc4d9ad6-833d-49d5-8010-abb2b92d7af5"
+			"id" "elementid" "8a8319aa-e15d-4e83-8e2d-902eeafa8bfe"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "fc95a582-1e6d-4ff3-8c0c-3c372b705ffa"
+				"id" "elementid" "91822a90-1928-4f37-859f-347c2fc85d54"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2689,10 +2689,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "51ba0d6c-267c-4250-bd5d-8bef2e5ba607"
+			"id" "elementid" "5ed134d6-6f6e-46b1-a3af-52f0e6127f75"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "fe61e0a2-e01f-4e6d-9bba-972f7aa38825"
+				"id" "elementid" "097c7622-a409-445a-88b2-da5ba36d0b5e"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2700,10 +2700,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6477abd5-989c-4669-98bf-f6888cfd5e71"
+			"id" "elementid" "59ed8b45-112c-4bd8-abc6-0d31752fcac4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "6377859b-4993-44d9-9b61-51bfdf83b4f0"
+				"id" "elementid" "870b5f79-a957-4772-92e4-67ab1ac648fa"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2711,10 +2711,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5c56e38e-612a-4030-be19-566330957794"
+			"id" "elementid" "035b30d3-fdcd-4cc1-bfe3-03ad89d58531"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "63386a8c-49a8-454f-91dc-88e3e622cf13"
+				"id" "elementid" "c1a40636-5a72-463f-8b01-23c94a0c5fbf"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2722,10 +2722,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "077c9ac4-49bf-4224-9449-6105bcbc5cc0"
+			"id" "elementid" "66bb0260-fca4-478e-9227-222074497ea5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a82d4738-f32f-448e-a0cf-dac8e904a84f"
+				"id" "elementid" "7b30166a-fb2f-4fb1-8e17-b76e1af8e3c9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2733,10 +2733,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "4a41aaa8-4bad-4fc2-b08e-2db0e7e48ff1"
+			"id" "elementid" "c4c16990-2bdb-43d9-8e55-423365fce966"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "86f0abc4-d5ae-4a59-9a7f-46c8e1944413"
+				"id" "elementid" "3acfcf90-d591-47cc-b26f-59fa1e6c890c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2744,10 +2744,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "9daec91b-6df7-46a5-97dd-4f21aa2d7b55"
+			"id" "elementid" "708c930f-0bff-4e42-b59d-b61068a7da8a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "64726c2f-8994-4b20-bac3-4313b7b0d0b2"
+				"id" "elementid" "715b56e6-b71e-40c2-860d-4f5bb611b1aa"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2755,10 +2755,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d471ddd3-5646-4bf2-a6a0-6ab8dd7235e7"
+			"id" "elementid" "7d28b8ca-4a00-4464-a4f0-513cc61d238c"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e0a42057-0df3-4eb4-91d9-78c3b48a57e8"
+				"id" "elementid" "408dc2d6-1f29-43d4-9d4b-277950973af3"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2766,10 +2766,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "bb425dcd-ca3a-4e0c-8376-35399dfb9f5b"
+			"id" "elementid" "874c0b50-4901-478f-b27f-857295ab5b54"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "36d0a3cf-ca0f-43f1-be8f-f3d0f40fc3b0"
+				"id" "elementid" "2d68128c-e4f0-48dd-a036-27281f395646"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2777,10 +2777,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c894539a-5496-40dd-b3e4-b46e650e9423"
+			"id" "elementid" "94407ffe-0f6b-4600-8fed-a1b616f05f17"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "749823d8-23cf-4fcf-a91b-01a7609cb481"
+				"id" "elementid" "3510030c-0b52-4d4a-8b93-ecb117d65a40"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2788,10 +2788,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "9678cd7d-08e2-44c1-a3f9-7e653a68ec62"
+			"id" "elementid" "abeca504-fab0-444d-8115-bbd3ee1c54f7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b2f3e9da-5a12-48ee-aeb0-c76ccbbf6d14"
+				"id" "elementid" "8387c96d-5392-4413-b6e7-414bc21dca75"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2799,10 +2799,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "49cdc330-f5f0-4031-bc12-bba96dc34fdf"
+			"id" "elementid" "2a8fe4cf-8bee-4922-a17d-44854e423743"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "bcf34760-cd30-457c-b89c-b7cd6a29b8a3"
+				"id" "elementid" "b65ddcb1-7a49-44d0-9afd-0eeb877e9b25"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2810,10 +2810,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "27d26861-b65e-44d7-a4bb-b6b52007d868"
+			"id" "elementid" "cf5b1997-a71b-485a-bd66-1efbcdcaccc7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d73b735a-a4f5-4e0b-97bc-16ceb696d84b"
+				"id" "elementid" "5a7f6cb0-be49-46f9-9ce9-81826ba33ad1"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2821,10 +2821,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8dff7be2-8a06-45ce-b997-3aef8c83040d"
+			"id" "elementid" "1e3e8788-0f89-45de-bb81-73051f7e245f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "bf8eda19-b0fa-41e3-96f7-f382a92871ce"
+				"id" "elementid" "445b0bb5-044f-4857-9436-ad8c6d4fb961"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2832,10 +2832,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "57f455c0-399e-485d-9eb4-bf2e394a0eed"
+			"id" "elementid" "a7794327-3daa-4ce0-9a39-c4b090f7e18e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4f019f31-2f46-4b8d-86e5-459104e57e2e"
+				"id" "elementid" "298e7115-837b-48e9-b233-18d821a18ae8"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2843,10 +2843,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f5f781a0-fccf-4684-a236-9ad6d5395c16"
+			"id" "elementid" "f73bca4c-1b26-4c53-ad5e-68b88b45a751"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "be381112-9d68-4a4d-a185-34ac69adb6ca"
+				"id" "elementid" "901c5dcb-e572-4821-8d99-fe2740de98a6"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2854,10 +2854,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "78a7075c-f2f1-422f-8c6e-20bd7a2d3175"
+			"id" "elementid" "c765bb8e-c15f-4afe-9f63-29e868136f32"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8ca24ac5-5e3b-47d3-846f-22329c6dfff3"
+				"id" "elementid" "1268e471-da03-4bc3-bc59-762fb299d00b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2865,10 +2865,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "1bc27189-bc10-4e8a-82be-222ccd7b3b00"
+			"id" "elementid" "4fac63cf-f408-4587-9d5b-9f72514ca0c5"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "19524fd9-05de-4cc3-b491-4fda0d73ee11"
+				"id" "elementid" "8ad27df3-bd85-4dc4-8904-064fe04cbf2e"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2876,10 +2876,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ef29cb55-e50a-404e-9a7e-266fab294463"
+			"id" "elementid" "2677cd2c-af82-4bb9-9fb4-3faf64830100"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "f139d98c-3431-45ce-951b-23b25b7a8897"
+				"id" "elementid" "4137fc1d-02f0-4e3f-828f-2f544ef27e57"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2887,10 +2887,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "54d58352-544e-4152-bc6f-e9513f43a2f2"
+			"id" "elementid" "ac574a4b-3ab8-4b7a-9448-0b3fa08d9067"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2584602f-73bc-4274-b89f-fe6847cb7eb0"
+				"id" "elementid" "a6893745-2025-4d37-a564-71ee288bc384"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2898,10 +2898,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "0d28ce78-671b-44f6-a22f-21002a7552ee"
+			"id" "elementid" "9e69d85f-dcb2-410a-af44-5b11f9a11de7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "bd932c72-f603-40bf-95d5-c081a3493fec"
+				"id" "elementid" "eeedd75b-3641-4474-a81b-91bf9a10092f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2909,10 +2909,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5fb1497f-9e08-4c9a-8144-a73d4538fef3"
+			"id" "elementid" "ecf55a55-0f2e-46ec-8bed-582751c7df0d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8aae8672-fcbf-43f0-a199-c05a32bd42e2"
+				"id" "elementid" "6f355c39-a8e7-4688-941b-a911c10130dd"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2920,10 +2920,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "264e91dc-6943-45f9-915e-de30475fbef0"
+			"id" "elementid" "151105a2-dc12-488b-b972-7e5633d9094e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0e55662f-6086-44d3-8ee4-bd68efadf6c9"
+				"id" "elementid" "04791bc6-a056-429d-b246-a867acf34900"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2931,10 +2931,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ee6eef80-911d-47fb-9308-79967ffc3dbf"
+			"id" "elementid" "08a671e8-f7af-4d0a-9be7-00142f382984"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "89b7fce2-157f-4bf8-be03-7186bd75b8cc"
+				"id" "elementid" "a596ba88-d153-479e-8218-3df671b43101"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2942,10 +2942,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "445537ab-a59d-423b-a843-bd89330fc159"
+			"id" "elementid" "8db5c8c8-6701-4ed1-aaff-a46c2d99e2e7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "eb7e65d3-e585-4e07-94e5-5bbaa7bd1104"
+				"id" "elementid" "7fccfd86-86a9-4a92-92da-231475e060b2"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2953,10 +2953,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "95bc853e-9314-46a9-bb0a-572c1f75c46c"
+			"id" "elementid" "2e04a661-0344-49b7-a575-cc4e2f5ac31b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "f0067b15-fab6-4edd-8d79-d9f6ab5599ac"
+				"id" "elementid" "987465d0-2159-432a-b107-ce30a936d5ef"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2964,10 +2964,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a41fc0c6-27a3-46a1-9adc-6f94fd36d843"
+			"id" "elementid" "2c590420-e681-4c22-b82c-773307b80c1b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7327e2d4-39d5-4216-bf73-8a070df85256"
+				"id" "elementid" "d9de9b70-2d6d-4621-aca1-6c7d98b31b08"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2975,10 +2975,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "6bdae6d6-4698-4e88-8444-af10065325bd"
+			"id" "elementid" "4d8ac074-efa4-4c09-a500-8ad784d9ad05"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b2938608-1c07-4750-b2ee-c0a257d4b3db"
+				"id" "elementid" "a03c3ad5-75ed-42a1-9931-b950dccc885b"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2986,10 +2986,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "f747bef2-64ad-4ceb-b771-46db3498f700"
+			"id" "elementid" "56e2b9c8-f2d3-45e6-9a26-c5b1547ae8d0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "f84ae048-d93d-46d8-953b-8d5b60e21532"
+				"id" "elementid" "d18ec9a4-7228-4694-9423-c692fdd6689f"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -2997,10 +2997,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "2e2495b0-472f-421e-a406-ae71b591a89a"
+			"id" "elementid" "63fa984b-8ef8-4341-8db7-2b0b59d44ea9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "eb8d051f-4954-49e4-8ac6-ee007042d92f"
+				"id" "elementid" "592dedd4-ff3c-49ee-86d9-f796ff440434"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3008,10 +3008,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "e5c0bfe7-0e63-4855-ae38-aeb9203eded3"
+			"id" "elementid" "54f6617e-7b39-496a-9f82-5af72386ced7"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "73f681d3-4c1b-4300-b9a0-28e3ffd53926"
+				"id" "elementid" "f646ba78-b4e7-4a2b-b691-c0f029eee188"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3019,10 +3019,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "9a1692d9-65cd-4ec2-acfb-fd2aa6178d3f"
+			"id" "elementid" "95dbc8e1-a59a-470a-8825-2545387172f9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "40b3805f-9ace-473b-91c6-ba5f9a7caf55"
+				"id" "elementid" "96c11f55-abd0-44dc-8ab4-e516df698470"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3030,10 +3030,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7a1630d7-74a6-4e3d-bc29-548a513d3043"
+			"id" "elementid" "b74814b0-466a-41c3-9917-e04f51e214ee"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ccce5bd1-4692-45c9-ad3b-5029caaf3f62"
+				"id" "elementid" "c48db7b2-eab9-4ed5-b9e4-63043e752de3"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3041,10 +3041,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "eeb4a10f-2af7-4f6b-b757-39804dfa66f6"
+			"id" "elementid" "6a862641-8417-4a0d-8c0b-e4d20d46ac87"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b9bc0332-555d-4a43-a4df-7be7c3fb2503"
+				"id" "elementid" "b6f7315d-3e42-4ac7-9f3e-4c70ba9b8cc6"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3052,10 +3052,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "ab9e55c4-9dfc-49f5-b4d7-586218b2fdcd"
+			"id" "elementid" "e0eacb0f-0c22-4330-b531-f151bd4fe9e0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a3c6103c-d36f-4f1c-9461-891baa84fadc"
+				"id" "elementid" "bc097f41-2f3c-4c7d-8370-85493e02a3c7"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3063,10 +3063,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "4c004a0f-293f-412e-8b82-c47c8670b819"
+			"id" "elementid" "9cfcbb8b-b48f-4941-b540-e3428514c014"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "5f31de7e-720e-4779-8b63-d099cec573ad"
+				"id" "elementid" "3fb10e84-82e8-4cf5-b84c-55adaeb043d2"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3074,10 +3074,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "cff44e03-2eec-41dc-b656-25987493bb45"
+			"id" "elementid" "fce5ffc6-525d-4327-b384-875e672c7757"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a23f2c21-4000-4364-abf6-7a55c39c96a3"
+				"id" "elementid" "546995de-0592-4e64-af72-31a43d192a36"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3085,10 +3085,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "1a77a765-7f4b-4c01-8588-ddaaa9b61182"
+			"id" "elementid" "60b551bf-5cb9-43a0-bc72-2683df62cc9d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d2e2a4f4-f145-45d1-af9e-85ce67fe02bb"
+				"id" "elementid" "00355c0a-f5a5-48d3-82b3-2093384588ac"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3096,10 +3096,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3a62bea0-7972-4fa4-87fe-4b9d69acc5f7"
+			"id" "elementid" "2c2ad0f3-e872-49c0-b51f-19737eee839e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "890d0dea-8544-4f6b-8505-9495a876233c"
+				"id" "elementid" "3ea6bca0-3192-46db-a0ba-7aa04731f911"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3107,10 +3107,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c909f223-8550-46ed-ae61-1a44643fad74"
+			"id" "elementid" "7ca2db0b-f644-4921-83c2-4b8bc2cc5529"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "157b5f4b-673d-4062-935f-f170817022d2"
+				"id" "elementid" "044feda3-41f7-4ef6-98af-b5cd97bc5c7c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3118,10 +3118,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "263085e0-a1f4-42f7-b788-d10d2ddb80ec"
+			"id" "elementid" "deeef0ca-4c88-4798-9c9e-790e3d2ce0a8"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "263b732a-9f91-48e5-8db7-50b39b362f02"
+				"id" "elementid" "450c9f41-2df0-40e7-968d-c90b1537f192"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3129,10 +3129,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "51ee188d-41fe-48c3-80ba-e21c87a168f9"
+			"id" "elementid" "74b75094-4032-41e9-a6bf-6a9ddc26e7fc"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "b7c3c944-7b88-40d6-994c-92a23d73b018"
+				"id" "elementid" "e46dddec-64ab-4a54-8467-7c80816af9e4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3140,10 +3140,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fc1799d9-63dc-43db-9e21-52d57feb30d3"
+			"id" "elementid" "e42907da-76ac-4843-aa82-f0d141b21d02"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "a4b834d7-cd03-4f56-8fe7-5be42c6d2851"
+				"id" "elementid" "e5ae3091-f21c-4eff-a14a-86613632cfa9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3151,10 +3151,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d57999d3-a1f2-407d-a03e-12b16a45ca1a"
+			"id" "elementid" "9fa84bd2-3a71-43df-aa42-6bc1d085ee04"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "271e7399-01c3-466f-b2a1-256a5a3b3d49"
+				"id" "elementid" "24410bf2-146c-4165-baae-e416a65307cd"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3162,10 +3162,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b6bd68dd-b6d8-4631-b26f-100df23fc6d1"
+			"id" "elementid" "4eaa135b-4ce4-4f53-aaa0-0d978548a3c1"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "957897f3-60b6-405c-a942-2d5614113fec"
+				"id" "elementid" "59125116-48f5-4cca-a6f8-22461f7de0e5"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3173,10 +3173,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "905c41f1-a74a-4b7c-8770-f7a687c3f461"
+			"id" "elementid" "ac2fb064-a483-46e1-8429-05cae26d0795"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2004c7b6-4c04-4ea0-abbc-1ccb8a1ef666"
+				"id" "elementid" "bbe286d8-bcc3-4aa8-abd6-e23f2d752e87"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3184,10 +3184,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "85d70355-50da-4720-88c1-5593b783fc6d"
+			"id" "elementid" "0bf475d6-f70d-4eef-9b11-05d362b6d56a"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "22917947-1d4b-4b2a-bab9-2349e5a9da06"
+				"id" "elementid" "ed7c75c7-3d14-4811-94e0-bf7d1ac35466"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3195,10 +3195,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "51af2e33-3132-4efb-9707-3766e06687da"
+			"id" "elementid" "bddbf22d-66c7-46d7-bb3f-1b1fd3d62815"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9ce488e0-713d-40eb-8963-b289957bb1dd"
+				"id" "elementid" "dcc75444-ba46-4456-b127-70b69f92d395"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3206,10 +3206,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b13ce1a4-c4db-4be7-8c6b-dc5e2b24ede7"
+			"id" "elementid" "798d37a7-7b39-4307-9d75-11a3bf6a4cbe"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3ad161b8-0bf3-4b29-8372-c09fee5ce498"
+				"id" "elementid" "79ea7999-f5cb-4fe7-b381-eb2c88d6ad58"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3217,10 +3217,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "871c941e-7edb-457b-8053-9230c19054d2"
+			"id" "elementid" "43f6af53-3cb1-44d6-ac1e-50b30af2a19d"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "46b5510a-f994-48a0-aa92-dcaeee685571"
+				"id" "elementid" "cdca0650-6a59-40ee-9648-b852c65244f8"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3228,10 +3228,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "cb6305fc-23d6-46dc-8fa9-6efca0d40cd0"
+			"id" "elementid" "7268b855-652a-44b4-9c37-4effff080c47"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "58d9e8bf-ee19-461b-a7c7-1ea844db56df"
+				"id" "elementid" "41a2cab5-f6a9-4af4-98f0-468d82bde513"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3239,10 +3239,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5ef5ec55-88a8-4de3-be7b-27aecaa35f93"
+			"id" "elementid" "7b6e139c-dd67-401b-8b10-603686d0548e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "04b0278d-b68b-42f5-be4f-87edddb9b2c2"
+				"id" "elementid" "47b856fa-93fc-4f94-a3a9-dd46fdc912e5"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3250,10 +3250,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "03bd0099-0294-4827-9e74-944b187ce384"
+			"id" "elementid" "4f89e15a-9333-4e20-b244-75c9fc1de7a9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "709fd789-db2c-487a-8088-0dd73a649b66"
+				"id" "elementid" "53a235ee-327a-441d-9ff8-a8d1400934ab"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3261,10 +3261,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "1ee21e43-8168-4976-bdf4-834f6edb9e9d"
+			"id" "elementid" "d21b2d17-0115-40d7-ae95-6bb20e7bf5b9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "c06b21e8-f8fe-46a3-8afd-923e12c102bc"
+				"id" "elementid" "c2000fa1-4627-42fd-b711-0bc5e966a8a4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3272,10 +3272,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "10b33fb4-bb3f-4fda-b8b3-b7aedbd06b26"
+			"id" "elementid" "3ffd926c-6428-480a-950f-3e896e06e870"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7fbcd12e-fc2c-4b3b-be82-b740e803855c"
+				"id" "elementid" "d4f5118a-3094-4819-971f-208adcc82c46"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3283,10 +3283,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "620d1595-ad24-4c7e-be02-e2e91423dbe9"
+			"id" "elementid" "0e7a7f4a-1253-42e7-815a-1c279ca30696"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "449dd610-7013-49d9-a057-1da7a6213a71"
+				"id" "elementid" "a0a2022e-42a0-42d3-a5a8-52cbbeea978a"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3294,10 +3294,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "56169899-4c6b-4adb-889f-a3223da0842c"
+			"id" "elementid" "54e68cd4-a7e6-44bd-a599-3306f6b6aecf"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "ba989e23-9423-4c6e-bcc0-109f97435b97"
+				"id" "elementid" "99470ac0-ddbe-4595-b96a-6a72e9cfeb36"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3305,10 +3305,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "b11fa686-4062-414f-9963-f32e31d972a0"
+			"id" "elementid" "42923787-6233-4877-9c0d-3b44da3bdb9f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "04d5e7c5-dc26-496b-8382-c8473b2e941d"
+				"id" "elementid" "adcdf63c-e970-4d95-8734-c22c671e4142"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3316,10 +3316,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "d42395b0-b759-4465-ae96-907738d52b3a"
+			"id" "elementid" "b8faaa94-0117-42e9-a95e-83734f2b548f"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "260a81e7-ab65-4d91-8b65-b84fa7cd6423"
+				"id" "elementid" "1ca4882b-4c58-4d91-afd5-38926525a4c6"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3327,10 +3327,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "eb2e16b3-bbad-464c-ad22-86454168e23b"
+			"id" "elementid" "ca4d870b-fb75-40fe-b8bd-86aa047107f6"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7d845b2b-5f3e-4626-bf8a-d7a90ad6bd90"
+				"id" "elementid" "e85f2b63-531b-4bd5-9f2f-309d521b54f4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3338,10 +3338,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c9b3a3f0-de1f-4765-bd4d-32b974ec7e4d"
+			"id" "elementid" "e0aad31f-85b2-4d5a-b28f-eaa430aeb6ad"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "d3de85c9-badc-4013-b2d1-9349d68d82b4"
+				"id" "elementid" "aacf22b1-8e8e-49ac-bad8-03152194efb3"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3349,10 +3349,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "c1b38cfc-3089-4e7a-a947-b472059b7967"
+			"id" "elementid" "c67b3fe6-a886-45e0-8946-c5ffac1a4ed2"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "08f9e63e-aab3-4ef7-8745-ef6243a9e360"
+				"id" "elementid" "87ac8fa1-21df-4ca4-bc93-a00d548e366d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3360,10 +3360,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "62484687-bcf4-48bf-b33e-2bcb7a1b0366"
+			"id" "elementid" "a5b89060-a11a-455b-9932-f51121c0f669"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4d63b810-432d-4766-a6d7-840cb7e81789"
+				"id" "elementid" "b24683a6-7f2e-45ef-aad7-d7671e0e1837"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3371,10 +3371,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "fac67cd6-5083-4d7f-864a-553e0f317654"
+			"id" "elementid" "6b1b9369-8867-4126-8f8c-19d6f7e37ec4"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "85844de5-d1f0-4217-a6d3-4578d2a14d5a"
+				"id" "elementid" "88efb693-19e3-4771-96a4-9f527fc95d5e"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3382,10 +3382,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "44bb2a0f-d5f2-4434-8bdb-896e8c575d0c"
+			"id" "elementid" "670a4338-760a-4692-a81c-7c5c939df6a2"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "cf64b78f-b60d-4dbf-9e1a-1d8d91529d0b"
+				"id" "elementid" "bb759c43-5873-4986-858f-37d3226e6940"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3393,10 +3393,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a609b0f3-bdd7-4da6-9874-8f80938e3c18"
+			"id" "elementid" "b5265bec-9558-479f-a898-6da94cb65429"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "717380cf-8a64-42ba-a08d-9536846dfd3b"
+				"id" "elementid" "f8cdcae4-4da8-47a4-b15c-077869f24d71"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3404,10 +3404,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "87fbc3bb-9ab1-4f07-bbc8-fbaf45c6fc86"
+			"id" "elementid" "7887d0f9-10aa-47c8-a6a1-d3c9b82c995e"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "09ac6070-3aec-4be3-894d-6bda4916dd1b"
+				"id" "elementid" "6ecd0250-2a3f-481b-aa67-cf22a37071bd"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3415,10 +3415,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "58552569-55b2-467a-b2f6-9192c683291d"
+			"id" "elementid" "d7294315-847b-4fcf-a496-7e83ff11e1c2"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8e3650c9-24ba-4f3b-bed3-67d65833a334"
+				"id" "elementid" "eefe0113-323b-4a93-977b-a57a6d0c009c"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3426,10 +3426,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "04f620a7-fbd8-420b-975a-f567d53411ab"
+			"id" "elementid" "b8a69e58-fc59-4cc9-b672-3070eaca27db"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "3f2d6d3b-31ec-4af8-931b-e093362c3417"
+				"id" "elementid" "95faf9e2-b8da-44f4-a2d8-c6e7fc6d1b01"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3437,10 +3437,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "bcde65a2-f17f-4e73-a11f-c2c5df9cc3ab"
+			"id" "elementid" "d29744a0-4f66-4a34-93da-11820cf92087"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7584fb31-a295-420c-8d9b-389730e7ab6f"
+				"id" "elementid" "5d59554d-5b93-45ea-ba6a-dfbb07bc5eea"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3448,10 +3448,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "abc4369a-f7c7-46d2-83f1-414c901b0b7d"
+			"id" "elementid" "8b8cc492-ad25-402c-be7e-646046edd746"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2f282d33-f34e-4371-8491-ba2893f7b7e5"
+				"id" "elementid" "7f46cb01-0641-42c9-ae2d-41f4de28c659"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3459,10 +3459,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "807c56c9-b545-4725-b512-f0b2f36ce5b2"
+			"id" "elementid" "18dd4839-cd9b-405b-a01f-861b460abdc9"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "339f1252-fa89-4d2a-9046-b956aed27cdb"
+				"id" "elementid" "9a6fa407-b9ed-4f64-ad8c-5a6bdee1ddd4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3470,10 +3470,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "5fa39fff-0b59-436e-9a09-abc034f21f64"
+			"id" "elementid" "e5e5b925-98f0-406f-baf9-4e37e26bb990"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "4881ec75-9cc1-40f2-a0d9-a9d93e6bc062"
+				"id" "elementid" "36607fbe-8045-47f9-8c62-f72636aa8250"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3481,10 +3481,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "9fd867c4-46b4-4baa-81e5-9476e4e8e924"
+			"id" "elementid" "6727c8ce-c2ae-4c00-81f1-de2ca00e32c2"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "2bea256b-50e4-4c04-9767-6401bdabaa3a"
+				"id" "elementid" "8fbbaa74-82be-4e5c-8f8f-4851728e29af"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3492,10 +3492,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "eb22b415-96ea-4d3a-be98-b5034bdc17b6"
+			"id" "elementid" "ca8f3016-4f79-494f-a946-25aaf30fa38b"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "978626f5-4a83-45cb-b9fc-f06d73f09b88"
+				"id" "elementid" "4a6e18be-5b31-4d68-bd08-e1202a43a197"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3503,10 +3503,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "8bc2ccb8-8fed-4ff8-9b8e-381b06934e67"
+			"id" "elementid" "16e0599c-0e16-46f2-a10e-594b61741a24"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "8b8563f4-4d75-49bd-990a-884d2d4ed8ef"
+				"id" "elementid" "3994d056-7d1b-455c-aa6b-55471dabf894"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3514,21 +3514,21 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "7c822be0-37fa-40e0-964c-f58d82440ec3"
+			"id" "elementid" "66558f3e-3343-45a7-aa85-46eaef48fc58"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e7ff0032-c140-475c-a686-a27d14532afc"
+				"id" "elementid" "740f61a5-125f-4e5f-98a7-94d84ddf98a7"
 				"iPlayTime" "int" "0"
 			}
 			
-			"comment: mapname" "string" "htf_marshlands"
+			"comment: mapname" "string" "sd_marshlands"
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "00257b3b-2729-4eb5-be36-aa330cb80d95"
+			"id" "elementid" "d6394b1e-b172-46ac-84b6-a1e1aaae184c"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "e7193914-0cbd-42be-b015-4feae05e1bcf"
+				"id" "elementid" "d6b73bb5-1a74-48b5-a407-5040305e85cb"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3536,10 +3536,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "4dc02457-2463-4d17-969e-58f672bfac89"
+			"id" "elementid" "12be6398-bc9c-4be5-8d02-b1da38397afe"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "0660ce6d-9f0b-4062-84ee-369e06eb9df9"
+				"id" "elementid" "f8dc5ed4-0a95-4f75-bb01-0471bf11ed2d"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3547,10 +3547,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "51f2d2bf-f919-4efa-87de-0bb6e8cde3aa"
+			"id" "elementid" "1c8b58a8-e896-4964-bade-6b51777f6864"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "7fbc14f7-6d3d-446b-856f-c0362e462603"
+				"id" "elementid" "a9a9d6e0-94b9-437b-8fc6-efe413684fd9"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3558,10 +3558,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "372e17cc-35b3-4b88-a5aa-ba63081e4143"
+			"id" "elementid" "828a402b-32d3-4837-8752-76dcc68e9a46"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "51ad36a1-6180-4ac0-b03b-bf7acbafae50"
+				"id" "elementid" "8a1785a4-1581-4187-9bec-825f0a5865b4"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3569,10 +3569,10 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "a403bf20-a649-40f9-a0ef-0db6042d330b"
+			"id" "elementid" "882e5249-3b21-40b1-9929-3f4eab5846f0"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9e78197a-82f7-4809-ab10-de28a4dcc123"
+				"id" "elementid" "a62ad351-f1cd-473a-8fc7-21981a26f380"
 				"iPlayTime" "int" "0"
 			}
 			
@@ -3580,17 +3580,17 @@
 		},
 		"MapStats_t"
 		{
-			"id" "elementid" "3457eda9-f4ff-47b6-94ce-d6142529b4cb"
+			"id" "elementid" "656960ee-d3b5-4469-98a5-c5bc96fc6534"
 			"accumulated" "RoundMapStats_t"
 			{
-				"id" "elementid" "9ac35d82-8f1a-4d2a-a546-fe7b7be03fe9"
+				"id" "elementid" "da84905f-5910-4e7b-a978-2e9531b0d9f8"
 				"iPlayTime" "int" "0"
 			}
 			
 			"comment: mapname" "string" "plr_matterhorn"
 		}
 	]
-	"iTimestamp" "int" "1948359507"
+	"iTimestamp" "int" "1830815582"
 	"iVersion" "int" "0"
 	"SteamID" "int" "1387157215"
 }

@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 13 11:54:54 AM
+// File generated:  Tue Jan  6 09:04:27 PM
 //
 //
 // Cvar	-	Setting
@@ -99,7 +99,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"Cheats"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"space1"
@@ -208,7 +208,7 @@ DESCRIPTION SERVER_OPTIONS
 			"Enabled" "1"
 			"Always" "2"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_forced_holiday"
@@ -269,7 +269,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"Disable Random Weapon Spread"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_grapplinghook_enable"
