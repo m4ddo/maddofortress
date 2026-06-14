@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Dec 18 22:16:42 AM
+// File generated:  Sat Jun 13 22:06:35 AM
 //
 //
 // Cvar	-	Setting
@@ -206,7 +206,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_CombatTextBatching"
 		"#Tooltip_CombatTextBatching"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_combattext_doesnt_block_overhead_text"
@@ -324,7 +324,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "80.830002" }
+		{ "83.010002" }
 	}
 
 	"category4"
