@@ -6,7 +6,7 @@
 	}
 	"pl_upward"
 	{
-		"viewed"		"337"
+		"viewed"		"339"
 	}
 	"itemtest"
 	{
@@ -50,6 +50,6 @@
 	}
 	"mvm_bigrock"
 	{
-		"viewed"		"2"
+		"viewed"		"3"
 	}
 }

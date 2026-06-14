@@ -941,12 +941,12 @@
                 "maxammo primary reduced"
                 {
                     "attribute_class"    "mult_maxammo_primary"
-                    "value" "0.50"
+                    "value" "0.67"
                 }
                 "fire rate bonus"
                 {
-                    "attribute_class"    "mult_postfiredelay"
-                    "value" "0.75"
+                    "attribute class"    "mult_postfiredelay"
+                    "value" "0.67"
                 }
                 "damage penalty"
                 {
